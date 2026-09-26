@@ -1,0 +1,115 @@
+{
+  "generatedBy": "verification/engine/policy-experiments.cjs",
+  "node": "v24.11.0",
+  "caveat": "Scripted policies are automated experiments, not human playtests and not balance evidence. v0.3 numbers are untested defaults.",
+  "seeds": 30,
+  "cycleCap": 60,
+  "stepCap": 4000,
+  "policies": {
+    "idle_never_boards": {
+      "runs": 30,
+      "completedCycles": {
+        "min": 3,
+        "median": 3,
+        "max": 3
+      },
+      "endings": {
+        "fog": 0,
+        "sinking": 0,
+        "dismissal": 30,
+        "capped": 0
+      },
+      "totalDelivered": 0,
+      "wraithsFormed": 150,
+      "wraithsReleased": 0,
+      "missedQuotas": 0,
+      "rejectedActions": 0,
+      "stalled": 0,
+      "failures": []
+    },
+    "courier_one_stop": {
+      "runs": 30,
+      "completedCycles": {
+        "min": 60,
+        "median": 60,
+        "max": 60
+      },
+      "endings": {
+        "fog": 0,
+        "sinking": 0,
+        "dismissal": 0,
+        "capped": 30
+      },
+      "totalDelivered": 5400,
+      "wraithsFormed": 0,
+      "wraithsReleased": 0,
+      "missedQuotas": 0,
+      "rejectedActions": 0,
+      "stalled": 0,
+      "failures": []
+    },
+    "courier_one_stop_calming": {
+      "runs": 30,
+      "completedCycles": {
+        "min": 60,
+        "median": 60,
+        "max": 60
+      },
+      "endings": {
+        "fog": 0,
+        "sinking": 0,
+        "dismissal": 0,
+        "capped": 30
+      },
+      "totalDelivered": 5400,
+      "wraithsFormed": 0,
+      "wraithsReleased": 0,
+      "missedQuotas": 0,
+      "rejectedActions": 0,
+      "stalled": 0,
+      "failures": []
+    },
+    "courier_two_stops_calming": {
+      "runs": 30,
+      "completedCycles": {
+        "min": 60,
+        "median": 60,
+        "max": 60
+      },
+      "endings": {
+        "fog": 0,
+        "sinking": 0,
+        "dismissal": 0,
+        "capped": 30
+      },
+      "totalDelivered": 5400,
+      "wraithsFormed": 0,
+      "wraithsReleased": 0,
+      "missedQuotas": 0,
+      "rejectedActions": 0,
+      "stalled": 0,
+      "failures": []
+    },
+    "courier_two_stops_rocky_ok": {
+      "runs": 30,
+      "completedCycles": {
+        "min": 60,
+        "median": 60,
+        "max": 60
+      },
+      "endings": {
+        "fog": 0,
+        "sinking": 0,
+        "dismissal": 0,
+        "capped": 30
+      },
+      "totalDelivered": 5400,
+      "wraithsFormed": 0,
+      "wraithsReleased": 0,
+      "missedQuotas": 0,
+      "rejectedActions": 0,
+      "stalled": 0,
+      "failures": []
+    }
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "generatedBy": "verification/engine/run-verification.cjs",
+  "node": "v24.11.0",
+  "platform": "win32 x64",
+  "command": "node verification/engine/run-verification.cjs",
+  "equivalentTestCommand": "node --test \"tests/engine/*.test.js\"",
+  "rulesSnapshot": "outputs/The_Ferryman_v0.3_Decided_Rules.md",
+  "counts": {
+    "tests": 126,
+    "pass": 126,
+    "fail": 0
+  },
+  "matrix": {
+    "ids": 126,
+    "missingInTests": [],
+    "unlistedTests": []
+  },
+  "overall": "PASS",
+  "results": [
+    {
+      "name": "API-01 createGame gives the specified opening state (Sections 3, 4, 9 Setup)",
+      "status": "PASS",
+      "ms": 1.79
+    },
+    {
+      "name": "API-02 opening routes are three destinations with fog 0, 1, 2 and no rocky variants",
+      "status": "PASS",
+      "ms": 0.27
+    },
+    {
+      "name": "API-03 createGame rejects invalid seeds and options",
+      "status": "PASS",
+      "ms": 0.31
+    },
+    {
+      "name": "API-04 invalid actions return ok:false, the same state object, an error and no emissions",
+      "status": "PASS",
+      "ms": 0.4
+    },
+    {
+      "name": "API-05 successful dispatch never mutates the caller state and returns structured emissions",
+      "status": "PASS",
+      "ms": 0.44
+    },
+    {
+      "name": "API-06 the view is a pure projection: repeated calls agree and never change state",
+      "status": "PASS",
+      "ms": 0.77
+    },
+    {
+      "name": "API-07 serialize/deserialize round-trips a mid-run state exactly",
+      "status": "PASS",
+      "ms": 0.97
+    },
+    {
+      "name": "API-08 deserialize rejects malformed and unsupported saves without partial loading",
+      "status": "PASS",
+      "ms": 0.91
+    },
+    {
+      "name": "API-09 no dispatch action can alter approved constants or rules data",
+      "status": "PASS",
+      "ms": 0.26
+    },
+    {
+      "name": "API-10 hidden event conditions are absent from the normal view until triggered",
+      "status": "PASS",
+      "ms": 0.8
+    },
+    {
+      "name": "API-11 the ended view exposes cause and summary and offers no legal actions",
+      "status": "PASS",
+      "ms": 0.33
+    },
+    {
+      "name": "RT-01 from the starting shore only the three destinations are reachable",
+      "status": "PASS",
+      "ms": 2.52
+    },
+    {
+      "name": "RT-02 from a destination: other destinations, the haven and the return are listed; the current stop is not",
+      "status": "PASS",
+      "ms": 0.32
+    },
+    {
+      "name": "RT-03 visited stops cannot be revisited within a cycle; the haven at most once",
+      "status": "PASS",
+      "ms": 1
+    },
+    {
+      "name": "RT-04 a full multi-destination cycle: three destinations, haven, return, with the exact light path",
+      "status": "PASS",
+      "ms": 0.92
+    },
+    {
+      "name": "RT-05 the return is only possible from a destination or the haven, so at least one destination is visited",
+      "status": "PASS",
+      "ms": 0.27
+    },
+    {
+      "name": "RT-06 rocky variants unlock in cycle 3, for non-return edges only",
+      "status": "PASS",
+      "ms": 0.36
+    },
+    {
+      "name": "RT-07 escalation schedule: base fog, rocky reduction, +1 from cycle 5, favored destination from cycle 6",
+      "status": "PASS",
+      "ms": 2.67
+    },
+    {
+      "name": "RT-08 favored destination rotates from cycle 6 and is null before",
+      "status": "PASS",
+      "ms": 0.7
+    },
+    {
+      "name": "RT-09 exactly zero light survives a crossing (fog equals light)",
+      "status": "PASS",
+      "ms": 0.16
+    },
+    {
+      "name": "RT-10 fog greater than light ends the run before arrival with no reward or event",
+      "status": "PASS",
+      "ms": 0.52
+    },
+    {
+      "name": "RT-11 rocky sinking ends the run before arrival rewards",
+      "status": "PASS",
+      "ms": 0.22
+    },
+    {
+      "name": "RT-12 rocky crossing with hull 2 survives and lands at hull 1 after fog is paid",
+      "status": "PASS",
+      "ms": 0.12
+    },
+    {
+      "name": "RT-13 fog failure is evaluated before hull damage",
+      "status": "PASS",
+      "ms": 0.17
+    },
+    {
+      "name": "RT-14 active wraiths add one fog each to every edge, including the return",
+      "status": "PASS",
+      "ms": 0.34
+    },
+    {
+      "name": "RT-15 a failed return crossing triggers no cycle-end processing at all",
+      "status": "PASS",
+      "ms": 0.16
+    },
+    {
+      "name": "RT-16 same-cohort Red and Blue Soldiers add one fog; other cohorts never conflict",
+      "status": "PASS",
+      "ms": 0.28
+    },
+    {
+      "name": "RT-17 Accord cancels the soldier conflict and gives 1 protection for that crossing",
+      "status": "PASS",
+      "ms": 0.33
+    },
+    {
+      "name": "RT-18 passenger protection: Poet needs two other aboard souls, Keeper must be alone",
+      "status": "PASS",
+      "ms": 0.5
+    },
+    {
+      "name": "RT-19 memory protection amounts per the memory table (Tartarus base 2)",
+      "status": "PASS",
+      "ms": 0.47
+    },
+    {
+      "name": "RT-20 protection cannot heal: a zero-damage crossing gains nothing from a played card",
+      "status": "PASS",
+      "ms": 0.12
+    },
+    {
+      "name": "RT-21 the memory protection applies to the upcoming crossing only",
+      "status": "PASS",
+      "ms": 0.2
+    },
+    {
+      "name": "RT-22 exact light survives release cost and later zero-fog crossing (light 2 -> 0 -> Elysium)",
+      "status": "PASS",
+      "ms": 0.15
+    },
+    {
+      "name": "BD-01 the boat has four seats and two-seat souls keep their capacity",
+      "status": "PASS",
+      "ms": 3.24
+    },
+    {
+      "name": "BD-02 boarding exists only at the starting shore during preparation",
+      "status": "PASS",
+      "ms": 0.79
+    },
+    {
+      "name": "BD-03 boarding validates the soul: unknown, already aboard, wraith",
+      "status": "PASS",
+      "ms": 0.27
+    },
+    {
+      "name": "BD-04 tentative boarding creates no separation mark; departure does",
+      "status": "PASS",
+      "ms": 0.58
+    },
+    {
+      "name": "BD-05 different delivery subsets at successive stops, with exact reward accounting",
+      "status": "PASS",
+      "ms": 0.77
+    },
+    {
+      "name": "BD-06 an empty delivery is a legal confirmed action that keeps everyone aboard",
+      "status": "PASS",
+      "ms": 0.25
+    },
+    {
+      "name": "BD-07 replayed or double-clicked delivery cannot duplicate rewards",
+      "status": "PASS",
+      "ms": 0.28
+    },
+    {
+      "name": "BD-08 delivery validates its selection",
+      "status": "PASS",
+      "ms": 0.21
+    },
+    {
+      "name": "BD-09 the haven needs no delivery, allows none, and passengers cannot leave there",
+      "status": "PASS",
+      "ms": 0.26
+    },
+    {
+      "name": "BD-10 linked pairs delivered in the same action earn Joined Memory for both souls",
+      "status": "PASS",
+      "ms": 0.42
+    },
+    {
+      "name": "BD-11 separate deliveries give Faint Memory with no retroactive replacement; cross-cohort pairs are not linked",
+      "status": "PASS",
+      "ms": 0.37
+    },
+    {
+      "name": "BD-12 a mismatched destination gives the printed reward but no bonus and no penalty",
+      "status": "PASS",
+      "ms": 0.17
+    },
+    {
+      "name": "BD-13 gains above the lantern cap are lost and accounted per soul",
+      "status": "PASS",
+      "ms": 0.19
+    },
+    {
+      "name": "BD-14 obols have no cap",
+      "status": "PASS",
+      "ms": 0.12
+    },
+    {
+      "name": "BD-15 new memories join the bottom of the draw pile by cohort then template number",
+      "status": "PASS",
+      "ms": 0.22
+    },
+    {
+      "name": "BD-16 previewDelivery matches what the confirmed action then grants",
+      "status": "PASS",
+      "ms": 0.23
+    },
+    {
+      "name": "BD-17 delivered souls leave play for good and cannot reboard",
+      "status": "PASS",
+      "ms": 0.12
+    },
+    {
+      "name": "CE-01 anger is applied only when the cycle completes at the starting shore",
+      "status": "PASS",
+      "ms": 2.7
+    },
+    {
+      "name": "CE-02 calming spends 1 obol and prevents the next normal anger, then expires with the cycle",
+      "status": "PASS",
+      "ms": 1.91
+    },
+    {
+      "name": "CE-03 calming limits: once per cycle, needs an obol, shore only, no stacking, does not clear anger",
+      "status": "PASS",
+      "ms": 0.64
+    },
+    {
+      "name": "CE-04 boarding a calmed soul does not refund the obol",
+      "status": "PASS",
+      "ms": 0.26
+    },
+    {
+      "name": "CE-05 separation: the waiting partner gains 2 anger at return; the undelivered passenger breaks a promise",
+      "status": "PASS",
+      "ms": 0.35
+    },
+    {
+      "name": "CE-06 protection against normal anger does not cancel separation anger",
+      "status": "PASS",
+      "ms": 0.24
+    },
+    {
+      "name": "CE-07 a linked partner in another cohort is never separated",
+      "status": "PASS",
+      "ms": 0.26
+    },
+    {
+      "name": "CE-08 anger 3 becomes a wraith, adds a reprimand, and affects only the next crossing",
+      "status": "PASS",
+      "ms": 0.68
+    },
+    {
+      "name": "CE-09 a single return can create several wraiths and reprimands without ending the run below three",
+      "status": "PASS",
+      "ms": 0.24
+    },
+    {
+      "name": "CE-10 undelivered passengers return to the shore keeping anger, each adds a reprimand, and get no waiting anger",
+      "status": "PASS",
+      "ms": 0.32
+    },
+    {
+      "name": "CE-11 dismissal from broken promises stops the return before quota and recovery",
+      "status": "PASS",
+      "ms": 0.29
+    },
+    {
+      "name": "CE-12 simultaneous causes: transformation plus broken promise reach dismissal before the quota is evaluated",
+      "status": "PASS",
+      "ms": 0.17
+    },
+    {
+      "name": "CE-13 the quota comes due after cycles 3, 6, ... and only then",
+      "status": "PASS",
+      "ms": 0.96
+    },
+    {
+      "name": "CE-14 a missed quota keeps existing coins, adds one reprimand, carries no debt, and recovery still applies",
+      "status": "PASS",
+      "ms": 0.26
+    },
+    {
+      "name": "CE-15 a missed quota that reaches three reprimands ends the run before recovery",
+      "status": "PASS",
+      "ms": 0.17
+    },
+    {
+      "name": "CE-16 returned passengers beyond five waiting souls are all kept and nothing is drawn",
+      "status": "PASS",
+      "ms": 0.15
+    },
+    {
+      "name": "CE-17 supply continues past the original twelve with fresh cohort IDs",
+      "status": "PASS",
+      "ms": 0.21
+    },
+    {
+      "name": "CE-18 the shore is refilled only after a return, never after boarding or at intermediate stops",
+      "status": "PASS",
+      "ms": 0.38
+    },
+    {
+      "name": "CE-19 cycle-end order: return, anger, broken promises, quota, recovery, refill, memory draw",
+      "status": "PASS",
+      "ms": 0.17
+    },
+    {
+      "name": "CE-20 cycle recovery is capped at six light",
+      "status": "PASS",
+      "ms": 0.13
+    },
+    {
+      "name": "CE-21 reloading a save cannot repeat recovery or any other cycle-end effect",
+      "status": "PASS",
+      "ms": 0.48
+    },
+    {
+      "name": "CE-22 anger persists between cycles",
+      "status": "PASS",
+      "ms": 0.21
+    },
+    {
+      "name": "CE-23 the return forecast reports known anger, wraiths, broken promises and dismissal",
+      "status": "PASS",
+      "ms": 0.2
+    },
+    {
+      "name": "MEM-01 the hand is refilled to three exactly once per stop, after arrival",
+      "status": "PASS",
+      "ms": 2.84
+    },
+    {
+      "name": "MEM-02 playing is free, limited to one per crossing, and cannot be repeated",
+      "status": "PASS",
+      "ms": 0.78
+    },
+    {
+      "name": "MEM-03 discard recycling only happens when the draw pile runs dry, and is not a permanent removal",
+      "status": "PASS",
+      "ms": 0.41
+    },
+    {
+      "name": "MEM-04 the reshuffle is seeded: identical seeds agree, different seeds can differ",
+      "status": "PASS",
+      "ms": 2.25
+    },
+    {
+      "name": "MEM-05 a played card goes to the discard pile and cannot be drawn again at that stop",
+      "status": "PASS",
+      "ms": 0.17
+    },
+    {
+      "name": "MEM-06 Recollection marks one waiting soul: its normal anger is prevented, the others rise",
+      "status": "PASS",
+      "ms": 0.54
+    },
+    {
+      "name": "MEM-07 a card with an optional target still protects the crossing when no target is chosen",
+      "status": "PASS",
+      "ms": 0.28
+    },
+    {
+      "name": "MEM-08 invalid memory targets are rejected at dispatch",
+      "status": "PASS",
+      "ms": 0.34
+    },
+    {
+      "name": "MEM-09 protection does not stack: calming plus a memory mark prevents one anger increase, not two",
+      "status": "PASS",
+      "ms": 0.41
+    },
+    {
+      "name": "MEM-10 memory marks expire when the cycle completes",
+      "status": "PASS",
+      "ms": 0.4
+    },
+    {
+      "name": "MEM-11 remembrance reaches the waiting shore from any stop",
+      "status": "PASS",
+      "ms": 0.17
+    },
+    {
+      "name": "MEM-12 memories are source-linked instances with their own stable ids",
+      "status": "PASS",
+      "ms": 0.38
+    },
+    {
+      "name": "MEM-13 memories cannot be played outside the preparation phase",
+      "status": "PASS",
+      "ms": 0.35
+    },
+    {
+      "name": "MEM-14 Vigil protects 3 only while a two-seat soul is aboard at departure",
+      "status": "PASS",
+      "ms": 0.24
+    },
+    {
+      "name": "MEM-15 setup draws from empty piles without inventing memories",
+      "status": "PASS",
+      "ms": 0.08
+    },
+    {
+      "name": "MEM-16 a marked soul who then boards and is delivered leaves no stale mark (regression found by fuzzing)",
+      "status": "PASS",
+      "ms": 0.3
+    },
+    {
+      "name": "EV-01 E01 Shared Farewell: a linked pair delivered together at Elysium gives +1 light after their rewards",
+      "status": "PASS",
+      "ms": 3.08
+    },
+    {
+      "name": "EV-02 E01 does not fire for separate deliveries, a lone partner, other stops, other cohorts",
+      "status": "PASS",
+      "ms": 0.71
+    },
+    {
+      "name": "EV-03 events fire at most once per run",
+      "status": "PASS",
+      "ms": 0.76
+    },
+    {
+      "name": "EV-04 E02 Unfinished Message pauses for a choice; payment reduces one reprimand; hand draws afterward",
+      "status": "PASS",
+      "ms": 0.6
+    },
+    {
+      "name": "EV-05 E02 also fires for a Messenger who is still aboard, and declining changes nothing",
+      "status": "PASS",
+      "ms": 0.23
+    },
+    {
+      "name": "EV-06 E02 payment is disabled with no reprimand to reduce or no obol to pay",
+      "status": "PASS",
+      "ms": 0.58
+    },
+    {
+      "name": "EV-07 replayed, mistargeted or malformed event actions are rejected without effect",
+      "status": "PASS",
+      "ms": 0.21
+    },
+    {
+      "name": "EV-08 E02 is once per run: a later Messenger at Asphodel triggers nothing",
+      "status": "PASS",
+      "ms": 0.12
+    },
+    {
+      "name": "EV-09 E02 needs Asphodel and a Messenger",
+      "status": "PASS",
+      "ms": 0.16
+    },
+    {
+      "name": "EV-10 E03 Old Feud: both soldiers aboard on entry triggers it even if one disembarks; payment reconciles the pair",
+      "status": "PASS",
+      "ms": 0.33
+    },
+    {
+      "name": "EV-11 reconciliation removes only that cohort pair's conflict for the rest of the run",
+      "status": "PASS",
+      "ms": 0.43
+    },
+    {
+      "name": "EV-12 declining the feud leaves the conflict pressure in place",
+      "status": "PASS",
+      "ms": 0.36
+    },
+    {
+      "name": "EV-13 E03 needs Tartarus and same-cohort soldiers aboard on entry",
+      "status": "PASS",
+      "ms": 0.23
+    },
+    {
+      "name": "EV-14 E04 The Broken Landing heals one hull at the haven, after the haven light recovery",
+      "status": "PASS",
+      "ms": 0.33
+    },
+    {
+      "name": "EV-15 E04 does not fire at full hull, but a rocky haven crossing lowers hull first and so arms it",
+      "status": "PASS",
+      "ms": 0.29
+    },
+    {
+      "name": "EV-16 the haven grants 1 light on arrival, capped at six",
+      "status": "PASS",
+      "ms": 0.16
+    },
+    {
+      "name": "EV-17 undiscovered event conditions stay out of the view; the log reveals them only once triggered",
+      "status": "PASS",
+      "ms": 0.21
+    },
+    {
+      "name": "EV-18 no starter event ever removes light, hull or obols without a choice, and none touches anger",
+      "status": "PASS",
+      "ms": 0.29
+    },
+    {
+      "name": "RL-01 releasing a wraith costs 2 light, removes it immediately, cuts one reprimand and updates previews",
+      "status": "PASS",
+      "ms": 2.77
+    },
+    {
+      "name": "RL-02 spending down to exactly zero light is legal; one light short is not",
+      "status": "PASS",
+      "ms": 0.59
+    },
+    {
+      "name": "RL-03 release is repeatable while affordable and needs no other limit",
+      "status": "PASS",
+      "ms": 0.25
+    },
+    {
+      "name": "RL-04 release works at any stop during preparation, not during delivery or event phases, and is validated",
+      "status": "PASS",
+      "ms": 0.29
+    },
+    {
+      "name": "RL-05 a run that already ended cannot be rescued by a release",
+      "status": "PASS",
+      "ms": 0.79
+    },
+    {
+      "name": "RP-01 repair restores one hull per obol at the shore or haven, never above three",
+      "status": "PASS",
+      "ms": 0.36
+    },
+    {
+      "name": "RP-02 repair is refused at destinations, when broke, and outside preparation",
+      "status": "PASS",
+      "ms": 0.34
+    },
+    {
+      "name": "PH-01 no phase skipping: the delivery phase accepts only DELIVER",
+      "status": "PASS",
+      "ms": 0.53
+    },
+    {
+      "name": "PH-02 the preparation phase rejects DELIVER and RESOLVE_EVENT",
+      "status": "PASS",
+      "ms": 0.15
+    },
+    {
+      "name": "PH-03 the event phase accepts only RESOLVE_EVENT",
+      "status": "PASS",
+      "ms": 0.27
+    },
+    {
+      "name": "PH-04 a terminal failure permits no further action or reward of any kind",
+      "status": "PASS",
+      "ms": 0.33
+    },
+    {
+      "name": "PH-05 dispatch validates even when a UI would have disabled the control",
+      "status": "PASS",
+      "ms": 0.19
+    },
+    {
+      "name": "PH-06 every action the engine lists as legal really is accepted, and every disabled view flag is really refused",
+      "status": "PASS",
+      "ms": 1.13
+    },
+    {
+      "name": "RPL-01 replaying the accepted-action list from the seed reproduces the state byte for byte",
+      "status": "PASS",
+      "ms": 2.74
+    },
+    {
+      "name": "RPL-02 two independent runs from one seed and one script are identical, and a save resumes identically",
+      "status": "PASS",
+      "ms": 1.39
+    },
+    {
+      "name": "RPL-03 invariants hold at every step of many random runs (fuzz, 60 seeds)",
+      "status": "PASS",
+      "ms": 211.75
+    },
+    {
+      "name": "RPL-04 identical seeds give identical opening states; different seeds share the fixed soul order",
+      "status": "PASS",
+      "ms": 0.2
+    },
+    {
+      "name": "RPL-05 the engine is free of ambient state: two interleaved runs do not interfere",
+      "status": "PASS",
+      "ms": 0.19
+    },
+    {
+      "name": "RPL-06 a long scripted run keeps every invariant and issues unique soul IDs across cohort rollover",
+      "status": "PASS",
+      "ms": 110.29
+    }
+  ]
+}
