@@ -1,0 +1,155 @@
+{
+  "scope": "Automated component/PDF checks only. No browser gameplay, printer or human playtest.",
+  "passed": 8,
+  "failed": 0,
+  "checks": [
+    {
+      "check": "Source rules tables and effect provenance",
+      "status": "PASS",
+      "details": "12 source soul rows, 6 exact memory effects and 4 exact trigger/effect rows matched."
+    },
+    {
+      "check": "Unique cohorts, scoped pairs and adequate memory alternatives",
+      "status": "PASS",
+      "details": {
+        "starterSouls": 24,
+        "memoryFronts": 32,
+        "maximumEarnedFromStarter": 24,
+        "unusedAlternativesAfterAllDeliveries": 8,
+        "backs": 24
+      }
+    },
+    {
+      "check": "Directed map and base route values",
+      "status": "PASS",
+      "details": "19 directed edges; no shore-to-haven or self-loop; revisits gated by printed travel instructions."
+    },
+    {
+      "check": "PDF page counts, A4 size, selectable text and fonts",
+      "status": "PASS",
+      "details": [
+        {
+          "file": "print/01_Print_Guide.pdf",
+          "pages": 2
+        },
+        {
+          "file": "print/02_Soul_Cards.pdf",
+          "pages": 3
+        },
+        {
+          "file": "print/03_Memory_Cards.pdf",
+          "pages": 7
+        },
+        {
+          "file": "print/04_Board_and_Mats.pdf",
+          "pages": 4
+        },
+        {
+          "file": "print/05_Tokens.pdf",
+          "pages": 2
+        },
+        {
+          "file": "print/06_Trackers.pdf",
+          "pages": 4
+        },
+        {
+          "file": "print/07_References.pdf",
+          "pages": 3
+        },
+        {
+          "file": "print/08_Events_and_Discoveries.pdf",
+          "pages": 3
+        },
+        {
+          "file": "print/09_Observation.pdf",
+          "pages": 2
+        },
+        {
+          "file": "print/10_Continuation.pdf",
+          "pages": 6
+        },
+        {
+          "file": "Print_and_Play_Workshop_v0.3.pdf",
+          "pages": 36
+        }
+      ]
+    },
+    {
+      "check": "Actual PDF glyph bounds and measured calibration lines",
+      "status": "PASS",
+      "details": {
+        "pagesInspected": 36,
+        "minimumExtractedFontPt": 10.0,
+        "calibrationLengthsMm": [
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0,
+          50.0
+        ],
+        "textMarginMm": 10
+      }
+    },
+    {
+      "check": "Page/card geometry, minimum type size, image DPI and overlap scan",
+      "status": "PASS",
+      "details": {
+        "minimumTextPt": 10,
+        "minimumEmbeddedImageDpi": 449.6,
+        "safeMarginsMm": 10,
+        "cutCardMm": [
+          63,
+          88
+        ],
+        "cutBoxes": {
+          "02_Soul_Cards": 24,
+          "03_Memory_Cards": 56,
+          "04_Board_and_Mats": 10,
+          "08_Events_and_Discoveries": 8,
+          "10_Continuation": 40
+        }
+      }
+    },
+    {
+      "check": "Spoiler separation and uniform memory backs",
+      "status": "PASS",
+      "details": "Player reference excludes event titles/conditions. 24 starter backs use the same image, dimensions and source layout."
+    },
+    {
+      "check": "Asset and source preservation",
+      "status": "PASS",
+      "details": "44 reused art files and all source snapshots retain their hashes."
+    }
+  ]
+}

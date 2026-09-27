@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "zipFile": "The_Ferryman_Workshop_Kit_v0.3.zip",
+  "zipBytes": 88269424,
+  "zipSha256": "199c62f14a18359c23f1df2401819112140379764623c00de418ad6ff1f131da",
+  "payloadFilesVerified": 136,
+  "archiveFilesVerifiedIncludingManifest": 137,
+  "crcCheck": "PASS",
+  "allArchivedFilesMatchDelivery": true,
+  "unexpectedFiles": 0,
+  "receiptLocation": "Outside the ZIP intentionally; manifest is inside the ZIP.",
+  "physicalPrinterCheck": "NOT_RUN",
+  "humanPlaytest": "NOT_RUN"
+}

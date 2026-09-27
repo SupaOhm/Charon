@@ -1,0 +1,82 @@
+[
+  {
+    "name": "01_Print_Guide",
+    "title": "Print and assembly guide",
+    "file": "print/01_Print_Guide.pdf",
+    "pages": 2,
+    "first_page": 1,
+    "last_page": 2
+  },
+  {
+    "name": "02_Soul_Cards",
+    "title": "Starter soul cards",
+    "file": "print/02_Soul_Cards.pdf",
+    "pages": 3,
+    "first_page": 3,
+    "last_page": 5
+  },
+  {
+    "name": "03_Memory_Cards",
+    "title": "Starter memories and identical backs",
+    "file": "print/03_Memory_Cards.pdf",
+    "pages": 7,
+    "first_page": 6,
+    "last_page": 12
+  },
+  {
+    "name": "04_Board_and_Mats",
+    "title": "Route board and play mats",
+    "file": "print/04_Board_and_Mats.pdf",
+    "pages": 4,
+    "first_page": 13,
+    "last_page": 16
+  },
+  {
+    "name": "05_Tokens",
+    "title": "Obol counters and status markers",
+    "file": "print/05_Tokens.pdf",
+    "pages": 2,
+    "first_page": 17,
+    "last_page": 18
+  },
+  {
+    "name": "06_Trackers",
+    "title": "Resource dashboard and facilitator ledgers",
+    "file": "print/06_Trackers.pdf",
+    "pages": 4,
+    "first_page": 19,
+    "last_page": 22
+  },
+  {
+    "name": "07_References",
+    "title": "Player and facilitator references",
+    "file": "print/07_References.pdf",
+    "pages": 3,
+    "first_page": 23,
+    "last_page": 25
+  },
+  {
+    "name": "08_Events_and_Discoveries",
+    "title": "Events and discovery knowledge",
+    "file": "print/08_Events_and_Discoveries.pdf",
+    "pages": 3,
+    "first_page": 26,
+    "last_page": 28
+  },
+  {
+    "name": "09_Observation",
+    "title": "Workshop observation and feedback",
+    "file": "print/09_Observation.pdf",
+    "pages": 2,
+    "first_page": 29,
+    "last_page": 30
+  },
+  {
+    "name": "10_Continuation",
+    "title": "Repeatable further-cohort sheets",
+    "file": "print/10_Continuation.pdf",
+    "pages": 6,
+    "first_page": 31,
+    "last_page": 36
+  }
+]

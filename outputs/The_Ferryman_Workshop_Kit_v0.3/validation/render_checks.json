@@ -1,0 +1,265 @@
+{
+  "renderDpi": 150,
+  "pdfsRendered": 11,
+  "pagesRendered": 72,
+  "masterPages": 36,
+  "sectionPagesPixelMatched": 36,
+  "reports": [
+    {
+      "file": "print/01_Print_Guide.pdf",
+      "pages": 2,
+      "prefix": "/Users/supa/projects/SIIT/charon/work/workshop-kit-v0.3/01_Print_Guide/page",
+      "stderr": ""
+    },
+    {
+      "file": "print/02_Soul_Cards.pdf",
+      "pages": 3,
+      "prefix": "/Users/supa/projects/SIIT/charon/work/workshop-kit-v0.3/02_Soul_Cards/page",
+      "stderr": ""
+    },
+    {
+      "file": "print/03_Memory_Cards.pdf",
+      "pages": 7,
+      "prefix": "/Users/supa/projects/SIIT/charon/work/workshop-kit-v0.3/03_Memory_Cards/page",
+      "stderr": ""
+    },
+    {
+      "file": "print/04_Board_and_Mats.pdf",
+      "pages": 4,
+      "prefix": "/Users/supa/projects/SIIT/charon/work/workshop-kit-v0.3/04_Board_and_Mats/page",
+      "stderr": ""
+    },
+    {
+      "file": "print/05_Tokens.pdf",
+      "pages": 2,
+      "prefix": "/Users/supa/projects/SIIT/charon/work/workshop-kit-v0.3/05_Tokens/page",
+      "stderr": ""
+    },
+    {
+      "file": "print/06_Trackers.pdf",
+      "pages": 4,
+      "prefix": "/Users/supa/projects/SIIT/charon/work/workshop-kit-v0.3/06_Trackers/page",
+      "stderr": ""
+    },
+    {
+      "file": "print/07_References.pdf",
+      "pages": 3,
+      "prefix": "/Users/supa/projects/SIIT/charon/work/workshop-kit-v0.3/07_References/page",
+      "stderr": ""
+    },
+    {
+      "file": "print/08_Events_and_Discoveries.pdf",
+      "pages": 3,
+      "prefix": "/Users/supa/projects/SIIT/charon/work/workshop-kit-v0.3/08_Events_and_Discoveries/page",
+      "stderr": ""
+    },
+    {
+      "file": "print/09_Observation.pdf",
+      "pages": 2,
+      "prefix": "/Users/supa/projects/SIIT/charon/work/workshop-kit-v0.3/09_Observation/page",
+      "stderr": ""
+    },
+    {
+      "file": "print/10_Continuation.pdf",
+      "pages": 6,
+      "prefix": "/Users/supa/projects/SIIT/charon/work/workshop-kit-v0.3/10_Continuation/page",
+      "stderr": ""
+    },
+    {
+      "file": "Print_and_Play_Workshop_v0.3.pdf",
+      "pages": 36,
+      "prefix": "/Users/supa/projects/SIIT/charon/outputs/The_Ferryman_Workshop_Kit_v0.3/previews/sheet",
+      "stderr": ""
+    }
+  ],
+  "matches": [
+    {
+      "section": "print/01_Print_Guide.pdf",
+      "page": 1,
+      "masterPage": 1
+    },
+    {
+      "section": "print/01_Print_Guide.pdf",
+      "page": 2,
+      "masterPage": 2
+    },
+    {
+      "section": "print/02_Soul_Cards.pdf",
+      "page": 1,
+      "masterPage": 3
+    },
+    {
+      "section": "print/02_Soul_Cards.pdf",
+      "page": 2,
+      "masterPage": 4
+    },
+    {
+      "section": "print/02_Soul_Cards.pdf",
+      "page": 3,
+      "masterPage": 5
+    },
+    {
+      "section": "print/03_Memory_Cards.pdf",
+      "page": 1,
+      "masterPage": 6
+    },
+    {
+      "section": "print/03_Memory_Cards.pdf",
+      "page": 2,
+      "masterPage": 7
+    },
+    {
+      "section": "print/03_Memory_Cards.pdf",
+      "page": 3,
+      "masterPage": 8
+    },
+    {
+      "section": "print/03_Memory_Cards.pdf",
+      "page": 4,
+      "masterPage": 9
+    },
+    {
+      "section": "print/03_Memory_Cards.pdf",
+      "page": 5,
+      "masterPage": 10
+    },
+    {
+      "section": "print/03_Memory_Cards.pdf",
+      "page": 6,
+      "masterPage": 11
+    },
+    {
+      "section": "print/03_Memory_Cards.pdf",
+      "page": 7,
+      "masterPage": 12
+    },
+    {
+      "section": "print/04_Board_and_Mats.pdf",
+      "page": 1,
+      "masterPage": 13
+    },
+    {
+      "section": "print/04_Board_and_Mats.pdf",
+      "page": 2,
+      "masterPage": 14
+    },
+    {
+      "section": "print/04_Board_and_Mats.pdf",
+      "page": 3,
+      "masterPage": 15
+    },
+    {
+      "section": "print/04_Board_and_Mats.pdf",
+      "page": 4,
+      "masterPage": 16
+    },
+    {
+      "section": "print/05_Tokens.pdf",
+      "page": 1,
+      "masterPage": 17
+    },
+    {
+      "section": "print/05_Tokens.pdf",
+      "page": 2,
+      "masterPage": 18
+    },
+    {
+      "section": "print/06_Trackers.pdf",
+      "page": 1,
+      "masterPage": 19
+    },
+    {
+      "section": "print/06_Trackers.pdf",
+      "page": 2,
+      "masterPage": 20
+    },
+    {
+      "section": "print/06_Trackers.pdf",
+      "page": 3,
+      "masterPage": 21
+    },
+    {
+      "section": "print/06_Trackers.pdf",
+      "page": 4,
+      "masterPage": 22
+    },
+    {
+      "section": "print/07_References.pdf",
+      "page": 1,
+      "masterPage": 23
+    },
+    {
+      "section": "print/07_References.pdf",
+      "page": 2,
+      "masterPage": 24
+    },
+    {
+      "section": "print/07_References.pdf",
+      "page": 3,
+      "masterPage": 25
+    },
+    {
+      "section": "print/08_Events_and_Discoveries.pdf",
+      "page": 1,
+      "masterPage": 26
+    },
+    {
+      "section": "print/08_Events_and_Discoveries.pdf",
+      "page": 2,
+      "masterPage": 27
+    },
+    {
+      "section": "print/08_Events_and_Discoveries.pdf",
+      "page": 3,
+      "masterPage": 28
+    },
+    {
+      "section": "print/09_Observation.pdf",
+      "page": 1,
+      "masterPage": 29
+    },
+    {
+      "section": "print/09_Observation.pdf",
+      "page": 2,
+      "masterPage": 30
+    },
+    {
+      "section": "print/10_Continuation.pdf",
+      "page": 1,
+      "masterPage": 31
+    },
+    {
+      "section": "print/10_Continuation.pdf",
+      "page": 2,
+      "masterPage": 32
+    },
+    {
+      "section": "print/10_Continuation.pdf",
+      "page": 3,
+      "masterPage": 33
+    },
+    {
+      "section": "print/10_Continuation.pdf",
+      "page": 4,
+      "masterPage": 34
+    },
+    {
+      "section": "print/10_Continuation.pdf",
+      "page": 5,
+      "masterPage": 35
+    },
+    {
+      "section": "print/10_Continuation.pdf",
+      "page": 6,
+      "masterPage": 36
+    }
+  ],
+  "grayscaleMasterPages": [
+    3,
+    7,
+    13,
+    18
+  ],
+  "physicalPrinterCheck": "NOT_RUN",
+  "visualReview": "PASS; see visual_review.json for agent inspection scope and physical limits"
+}

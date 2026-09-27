@@ -1,0 +1,1213 @@
+{
+  "version": "0.3",
+  "kit_revision": "workshop-1",
+  "language": "en",
+  "rules_sha256": "459d7a8501b5e0674e95e31db09806dd6657117da1470b44a42684d5f9e5cdfb",
+  "production": {
+    "page_mm": [
+      210,
+      297
+    ],
+    "margin_mm": 10,
+    "card_mm": [
+      63,
+      88
+    ],
+    "card_safe_mm": 3,
+    "starter_cohorts": [
+      "C01",
+      "C02"
+    ],
+    "starter_souls": 24,
+    "starter_memory_fronts": 32,
+    "starter_memory_backs": 24,
+    "continuation_souls": 12,
+    "continuation_memory_fronts": 16,
+    "continuation_memory_backs": 12,
+    "minimum_rules_pt": 10,
+    "default_rules_pt": 11,
+    "calibration_mm": 50
+  },
+  "resources": {
+    "light_start": 2,
+    "light_max": 6,
+    "obols_start": 2,
+    "hull_start": 3,
+    "hull_max": 3,
+    "reprimands_start": 0,
+    "dismissal_at": 3,
+    "seats": 4
+  },
+  "actions": {
+    "calm": {
+      "obols": 1,
+      "limit_per_cycle": 1,
+      "where": [
+        "shore"
+      ]
+    },
+    "repair": {
+      "obols": 1,
+      "hull_gain": 1,
+      "where": [
+        "shore",
+        "haven"
+      ]
+    },
+    "release": {
+      "light": 2,
+      "reprimands_removed": 1,
+      "where": "any stop, preparation",
+      "repeatable": true
+    },
+    "memory": {
+      "cost": 0,
+      "per_crossing": 1,
+      "hand_draw_to": 3,
+      "draws_per_stop": 1
+    }
+  },
+  "cycle": {
+    "quota_obols": 2,
+    "quota_every": 3,
+    "recovery_light": 1,
+    "normal_anger": 1,
+    "separation_anger": 1,
+    "wraith_at_anger": 3,
+    "rocky_from": 3,
+    "rocky_base_reduction": 1,
+    "rocky_hull_damage": 1,
+    "modifier_from": 5,
+    "modifier": 1,
+    "favor_from": 6,
+    "favor_order": [
+      "elysium",
+      "asphodel",
+      "tartarus"
+    ],
+    "refill_toward": 5
+  },
+  "souls": [
+    {
+      "id": "S01",
+      "name": "Mother",
+      "seats": 2,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "S02",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    },
+    {
+      "id": "S02",
+      "name": "Child",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "S01",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    },
+    {
+      "id": "S03",
+      "name": "Merchant",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "tartarus",
+      "memory_options": [
+        "R02"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    },
+    {
+      "id": "S04",
+      "name": "Red Soldier",
+      "seats": 2,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "tartarus",
+      "memory_options": [
+        "R04"
+      ],
+      "partner": null,
+      "opponent": "S06",
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    },
+    {
+      "id": "S05",
+      "name": "Poet",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R03"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "1 fog protection with 2+ other souls aboard.",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    },
+    {
+      "id": "S06",
+      "name": "Blue Soldier",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R04"
+      ],
+      "partner": null,
+      "opponent": "S04",
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    },
+    {
+      "id": "S07",
+      "name": "Cook",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R03"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    },
+    {
+      "id": "S08",
+      "name": "Mason",
+      "seats": 2,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R02"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    },
+    {
+      "id": "S09",
+      "name": "Messenger",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R01"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    },
+    {
+      "id": "S10",
+      "name": "Keeper",
+      "seats": 2,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "tartarus",
+      "memory_options": [
+        "R01"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "1 fog protection when the only soul aboard.",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    },
+    {
+      "id": "S11",
+      "name": "Musician",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "S12",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    },
+    {
+      "id": "S12",
+      "name": "Listener",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "S11",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection"
+    }
+  ],
+  "memories": [
+    {
+      "id": "R01",
+      "name": "Steadiness",
+      "protection": 2,
+      "conditionalProtection": null,
+      "normalAngerTarget": false,
+      "cancelConflicts": false,
+      "description": "2 fog protection for the upcoming crossing.",
+      "source_effect": "2 protection.",
+      "rule_source": "6. Memory circulation/effect table"
+    },
+    {
+      "id": "R02",
+      "name": "Vigil",
+      "protection": 1,
+      "conditionalProtection": 3,
+      "normalAngerTarget": false,
+      "cancelConflicts": false,
+      "description": "1 fog protection. Increase to 3 if any aboard soul uses two seats.",
+      "source_effect": "1 protection; increase to 3 if any aboard soul uses two seats.",
+      "rule_source": "6. Memory circulation/effect table"
+    },
+    {
+      "id": "R03",
+      "name": "Recollection",
+      "protection": 1,
+      "conditionalProtection": null,
+      "normalAngerTarget": true,
+      "cancelConflicts": false,
+      "description": "1 fog protection. Optional: mark one waiting shore soul to prevent normal anger at this return. Target from any stop. Separation anger still applies.",
+      "source_effect": "1 protection; optionally mark one waiting starting-shore soul to prevent normal anger at this cycle's return.",
+      "rule_source": "6. Memory circulation/effect table"
+    },
+    {
+      "id": "R04",
+      "name": "Accord",
+      "protection": 1,
+      "conditionalProtection": null,
+      "normalAngerTarget": false,
+      "cancelConflicts": true,
+      "description": "1 fog protection. Cancel all same-cohort opposing soldier conflicts for this crossing.",
+      "source_effect": "1 protection and cancel all same-cohort Red/Blue soldier conflicts for this crossing.",
+      "rule_source": "6. Memory circulation/effect table"
+    },
+    {
+      "id": "R05",
+      "name": "Joined Memory",
+      "protection": 2,
+      "conditionalProtection": null,
+      "normalAngerTarget": true,
+      "cancelConflicts": false,
+      "description": "2 fog protection. Optional: mark one waiting shore soul to prevent normal anger at this return. Target from any stop. Separation anger still applies.",
+      "source_effect": "2 protection; optionally mark one waiting starting-shore soul to prevent normal anger at this cycle's return.",
+      "rule_source": "6. Memory circulation/effect table"
+    },
+    {
+      "id": "R06",
+      "name": "Faint Memory",
+      "protection": 1,
+      "conditionalProtection": null,
+      "normalAngerTarget": false,
+      "cancelConflicts": false,
+      "description": "1 fog protection for the upcoming crossing.",
+      "source_effect": "1 protection.",
+      "rule_source": "6. Memory circulation/effect table"
+    }
+  ],
+  "events": [
+    {
+      "id": "E01",
+      "title": "Shared Farewell",
+      "condition": "Elysium: at least one matching linked pair was delivered together in this arrival action.",
+      "effect": "Gain 1 light, up to 6. Automatic after delivery rewards.",
+      "flavor": "Two companions pause together at the landing.",
+      "optional": false,
+      "source_trigger": "Arrive at Elysium with at least one linked pair delivered together at this arrival",
+      "source_effect": "Shared Farewell: gain 1 light.",
+      "rule_source": "7. Events; 9. Arrival order"
+    },
+    {
+      "id": "E02",
+      "title": "Unfinished Message",
+      "condition": "Asphodel: a Messenger is still aboard or was delivered at this arrival.",
+      "effect": "Optional: pay 1 obol to reduce reprimands by 1, minimum 0. Requires an obol and a reprimand. Decline: no effect.",
+      "flavor": "A message finds someone willing to carry it farther.",
+      "optional": true,
+      "source_trigger": "Arrive at Asphodel with a Messenger still aboard or delivered at this arrival",
+      "source_effect": "Unfinished Message: optionally pay 1 obol to reduce reprimands by 1, minimum zero. Declining has no effect.",
+      "rule_source": "7. Events; 9. Arrival order"
+    },
+    {
+      "id": "E03",
+      "title": "Old Feud",
+      "condition": "Tartarus: both opposing soldiers of one cohort were aboard on entry, even if either disembarked here.",
+      "effect": "Optional: pay 1 obol to reconcile only this pair for the run. Remove their conflict pressure on later crossings. Decline: no effect.",
+      "flavor": "An old argument reaches a moment of quiet.",
+      "optional": true,
+      "source_trigger": "Arrive at Tartarus with both same-cohort soldiers aboard on entry, even if one disembarks here",
+      "source_effect": "Old Feud: optionally pay 1 obol to reconcile this pair for the rest of the run, removing only their conflict pressure. Declining has no effect.",
+      "rule_source": "7. Events; 9. Arrival order"
+    },
+    {
+      "id": "E04",
+      "title": "The Broken Landing",
+      "condition": "Haven: hull is below 3 on arrival.",
+      "effect": "Gain 1 hull, up to 3. Automatic after normal haven recovery.",
+      "flavor": "A loose plank can be fitted to the damaged boat.",
+      "optional": false,
+      "source_trigger": "Arrive at the haven with hull below 3",
+      "source_effect": "The Broken Landing: gain 1 hull up to 3.",
+      "rule_source": "7. Events; 9. Arrival order"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "shore",
+      "name": "Starting Shore",
+      "base_fog": 0
+    },
+    {
+      "id": "elysium",
+      "name": "Elysium",
+      "base_fog": 0
+    },
+    {
+      "id": "asphodel",
+      "name": "Asphodel",
+      "base_fog": 1
+    },
+    {
+      "id": "tartarus",
+      "name": "Tartarus",
+      "base_fog": 2
+    },
+    {
+      "id": "haven",
+      "name": "Haven",
+      "base_fog": 0
+    }
+  ],
+  "edges": {
+    "shore": [
+      "elysium",
+      "asphodel",
+      "tartarus"
+    ],
+    "elysium": [
+      "asphodel",
+      "tartarus",
+      "haven",
+      "shore"
+    ],
+    "asphodel": [
+      "elysium",
+      "tartarus",
+      "haven",
+      "shore"
+    ],
+    "tartarus": [
+      "elysium",
+      "asphodel",
+      "haven",
+      "shore"
+    ],
+    "haven": [
+      "elysium",
+      "asphodel",
+      "tartarus",
+      "shore"
+    ]
+  },
+  "tokens": {
+    "obols": {
+      "1": 12,
+      "5": 6,
+      "10": 2
+    },
+    "status": {
+      "WAIT": 8,
+      "SPLIT": 8,
+      "GUARD": 8,
+      "VISIT": 4,
+      "HERE": 1,
+      "2ND SEAT": 4,
+      "TRACK": 3,
+      "NORMAL": 1,
+      "ROCKY": 1,
+      "BLANK": 10
+    }
+  },
+  "mapping": {
+    "resources": "3",
+    "actions": "5, 6 and 3 Repairs",
+    "souls": "6 soul table; 3 passenger effects",
+    "nodes_edges": "2",
+    "cycle_escalation": "8",
+    "anger_supply": "4",
+    "memories": "6",
+    "events": "7",
+    "phase_order": "9"
+  },
+  "soul_instances": [
+    {
+      "id": "C01-S01",
+      "name": "Mother",
+      "seats": 2,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "C01-S02",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S01",
+      "cohort": "C01"
+    },
+    {
+      "id": "C01-S02",
+      "name": "Child",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "C01-S01",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S02",
+      "cohort": "C01"
+    },
+    {
+      "id": "C01-S03",
+      "name": "Merchant",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "tartarus",
+      "memory_options": [
+        "R02"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S03",
+      "cohort": "C01"
+    },
+    {
+      "id": "C01-S04",
+      "name": "Red Soldier",
+      "seats": 2,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "tartarus",
+      "memory_options": [
+        "R04"
+      ],
+      "partner": null,
+      "opponent": "C01-S06",
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S04",
+      "cohort": "C01"
+    },
+    {
+      "id": "C01-S05",
+      "name": "Poet",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R03"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "1 fog protection with 2+ other souls aboard.",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S05",
+      "cohort": "C01"
+    },
+    {
+      "id": "C01-S06",
+      "name": "Blue Soldier",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R04"
+      ],
+      "partner": null,
+      "opponent": "C01-S04",
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S06",
+      "cohort": "C01"
+    },
+    {
+      "id": "C01-S07",
+      "name": "Cook",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R03"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S07",
+      "cohort": "C01"
+    },
+    {
+      "id": "C01-S08",
+      "name": "Mason",
+      "seats": 2,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R02"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S08",
+      "cohort": "C01"
+    },
+    {
+      "id": "C01-S09",
+      "name": "Messenger",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R01"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S09",
+      "cohort": "C01"
+    },
+    {
+      "id": "C01-S10",
+      "name": "Keeper",
+      "seats": 2,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "tartarus",
+      "memory_options": [
+        "R01"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "1 fog protection when the only soul aboard.",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S10",
+      "cohort": "C01"
+    },
+    {
+      "id": "C01-S11",
+      "name": "Musician",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "C01-S12",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S11",
+      "cohort": "C01"
+    },
+    {
+      "id": "C01-S12",
+      "name": "Listener",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "C01-S11",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S12",
+      "cohort": "C01"
+    },
+    {
+      "id": "C02-S01",
+      "name": "Mother",
+      "seats": 2,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "C02-S02",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S01",
+      "cohort": "C02"
+    },
+    {
+      "id": "C02-S02",
+      "name": "Child",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "C02-S01",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S02",
+      "cohort": "C02"
+    },
+    {
+      "id": "C02-S03",
+      "name": "Merchant",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "tartarus",
+      "memory_options": [
+        "R02"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S03",
+      "cohort": "C02"
+    },
+    {
+      "id": "C02-S04",
+      "name": "Red Soldier",
+      "seats": 2,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "tartarus",
+      "memory_options": [
+        "R04"
+      ],
+      "partner": null,
+      "opponent": "C02-S06",
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S04",
+      "cohort": "C02"
+    },
+    {
+      "id": "C02-S05",
+      "name": "Poet",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R03"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "1 fog protection with 2+ other souls aboard.",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S05",
+      "cohort": "C02"
+    },
+    {
+      "id": "C02-S06",
+      "name": "Blue Soldier",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R04"
+      ],
+      "partner": null,
+      "opponent": "C02-S04",
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S06",
+      "cohort": "C02"
+    },
+    {
+      "id": "C02-S07",
+      "name": "Cook",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R03"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S07",
+      "cohort": "C02"
+    },
+    {
+      "id": "C02-S08",
+      "name": "Mason",
+      "seats": 2,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R02"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S08",
+      "cohort": "C02"
+    },
+    {
+      "id": "C02-S09",
+      "name": "Messenger",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "asphodel",
+      "memory_options": [
+        "R01"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S09",
+      "cohort": "C02"
+    },
+    {
+      "id": "C02-S10",
+      "name": "Keeper",
+      "seats": 2,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "tartarus",
+      "memory_options": [
+        "R01"
+      ],
+      "partner": null,
+      "opponent": null,
+      "protection": "1 fog protection when the only soul aboard.",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S10",
+      "cohort": "C02"
+    },
+    {
+      "id": "C02-S11",
+      "name": "Musician",
+      "seats": 1,
+      "reward": {
+        "type": "flame",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "C02-S12",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S11",
+      "cohort": "C02"
+    },
+    {
+      "id": "C02-S12",
+      "name": "Listener",
+      "seats": 1,
+      "reward": {
+        "type": "coin",
+        "amount": 1
+      },
+      "wish": "elysium",
+      "memory_options": [
+        "R06",
+        "R05"
+      ],
+      "partner": "C02-S11",
+      "opponent": null,
+      "protection": "",
+      "rule_source": "6. Souls, wishes and memories; 3. Passenger protection",
+      "template": "S12",
+      "cohort": "C02"
+    }
+  ],
+  "memory_instances": [
+    {
+      "id": "M-C01-S01-R06",
+      "source_id": "C01-S01",
+      "source_name": "Mother",
+      "template": "R06",
+      "alternative": true
+    },
+    {
+      "id": "M-C01-S01-R05",
+      "source_id": "C01-S01",
+      "source_name": "Mother",
+      "template": "R05",
+      "alternative": true
+    },
+    {
+      "id": "M-C01-S02-R06",
+      "source_id": "C01-S02",
+      "source_name": "Child",
+      "template": "R06",
+      "alternative": true
+    },
+    {
+      "id": "M-C01-S02-R05",
+      "source_id": "C01-S02",
+      "source_name": "Child",
+      "template": "R05",
+      "alternative": true
+    },
+    {
+      "id": "M-C01-S03-R02",
+      "source_id": "C01-S03",
+      "source_name": "Merchant",
+      "template": "R02",
+      "alternative": false
+    },
+    {
+      "id": "M-C01-S04-R04",
+      "source_id": "C01-S04",
+      "source_name": "Red Soldier",
+      "template": "R04",
+      "alternative": false
+    },
+    {
+      "id": "M-C01-S05-R03",
+      "source_id": "C01-S05",
+      "source_name": "Poet",
+      "template": "R03",
+      "alternative": false
+    },
+    {
+      "id": "M-C01-S06-R04",
+      "source_id": "C01-S06",
+      "source_name": "Blue Soldier",
+      "template": "R04",
+      "alternative": false
+    },
+    {
+      "id": "M-C01-S07-R03",
+      "source_id": "C01-S07",
+      "source_name": "Cook",
+      "template": "R03",
+      "alternative": false
+    },
+    {
+      "id": "M-C01-S08-R02",
+      "source_id": "C01-S08",
+      "source_name": "Mason",
+      "template": "R02",
+      "alternative": false
+    },
+    {
+      "id": "M-C01-S09-R01",
+      "source_id": "C01-S09",
+      "source_name": "Messenger",
+      "template": "R01",
+      "alternative": false
+    },
+    {
+      "id": "M-C01-S10-R01",
+      "source_id": "C01-S10",
+      "source_name": "Keeper",
+      "template": "R01",
+      "alternative": false
+    },
+    {
+      "id": "M-C01-S11-R06",
+      "source_id": "C01-S11",
+      "source_name": "Musician",
+      "template": "R06",
+      "alternative": true
+    },
+    {
+      "id": "M-C01-S11-R05",
+      "source_id": "C01-S11",
+      "source_name": "Musician",
+      "template": "R05",
+      "alternative": true
+    },
+    {
+      "id": "M-C01-S12-R06",
+      "source_id": "C01-S12",
+      "source_name": "Listener",
+      "template": "R06",
+      "alternative": true
+    },
+    {
+      "id": "M-C01-S12-R05",
+      "source_id": "C01-S12",
+      "source_name": "Listener",
+      "template": "R05",
+      "alternative": true
+    },
+    {
+      "id": "M-C02-S01-R06",
+      "source_id": "C02-S01",
+      "source_name": "Mother",
+      "template": "R06",
+      "alternative": true
+    },
+    {
+      "id": "M-C02-S01-R05",
+      "source_id": "C02-S01",
+      "source_name": "Mother",
+      "template": "R05",
+      "alternative": true
+    },
+    {
+      "id": "M-C02-S02-R06",
+      "source_id": "C02-S02",
+      "source_name": "Child",
+      "template": "R06",
+      "alternative": true
+    },
+    {
+      "id": "M-C02-S02-R05",
+      "source_id": "C02-S02",
+      "source_name": "Child",
+      "template": "R05",
+      "alternative": true
+    },
+    {
+      "id": "M-C02-S03-R02",
+      "source_id": "C02-S03",
+      "source_name": "Merchant",
+      "template": "R02",
+      "alternative": false
+    },
+    {
+      "id": "M-C02-S04-R04",
+      "source_id": "C02-S04",
+      "source_name": "Red Soldier",
+      "template": "R04",
+      "alternative": false
+    },
+    {
+      "id": "M-C02-S05-R03",
+      "source_id": "C02-S05",
+      "source_name": "Poet",
+      "template": "R03",
+      "alternative": false
+    },
+    {
+      "id": "M-C02-S06-R04",
+      "source_id": "C02-S06",
+      "source_name": "Blue Soldier",
+      "template": "R04",
+      "alternative": false
+    },
+    {
+      "id": "M-C02-S07-R03",
+      "source_id": "C02-S07",
+      "source_name": "Cook",
+      "template": "R03",
+      "alternative": false
+    },
+    {
+      "id": "M-C02-S08-R02",
+      "source_id": "C02-S08",
+      "source_name": "Mason",
+      "template": "R02",
+      "alternative": false
+    },
+    {
+      "id": "M-C02-S09-R01",
+      "source_id": "C02-S09",
+      "source_name": "Messenger",
+      "template": "R01",
+      "alternative": false
+    },
+    {
+      "id": "M-C02-S10-R01",
+      "source_id": "C02-S10",
+      "source_name": "Keeper",
+      "template": "R01",
+      "alternative": false
+    },
+    {
+      "id": "M-C02-S11-R06",
+      "source_id": "C02-S11",
+      "source_name": "Musician",
+      "template": "R06",
+      "alternative": true
+    },
+    {
+      "id": "M-C02-S11-R05",
+      "source_id": "C02-S11",
+      "source_name": "Musician",
+      "template": "R05",
+      "alternative": true
+    },
+    {
+      "id": "M-C02-S12-R06",
+      "source_id": "C02-S12",
+      "source_name": "Listener",
+      "template": "R06",
+      "alternative": true
+    },
+    {
+      "id": "M-C02-S12-R05",
+      "source_id": "C02-S12",
+      "source_name": "Listener",
+      "template": "R05",
+      "alternative": true
+    }
+  ],
+  "phase_order": {
+    "arrival": [
+      "Arrive after surviving fog and hull damage.",
+      "At a destination, choose all souls to deliver in one confirmed action. Grant printed rewards, wish bonuses and memories once. At the haven, grant its once-per-cycle recovery instead.",
+      "Evaluate and resolve arrival events in ID order, using both arrival passenger snapshot and delivery results.",
+      "Draw memories to three once.",
+      "Prepare: release wraiths, repair where available, select next edge, optionally play one memory. These actions update the preview. Calming/boarding are starting-shore only.",
+      "Confirm departure, apply fog, then any rocky hull damage. A failure stops here. Otherwise arrive and continue."
+    ],
+    "return": [
+      "Survive the return edge using the currently active wraiths. If failed, no cycle-end actions occur.",
+      "Increment completed cycles. Resolve anger for the departure waiting snapshot, separation marks and transformations; add their reprimands.",
+      "Return undelivered passengers to the shore; add their broken-promise reprimands. Check dismissal now. If dismissed, stop without paying quotas or receiving recovery.",
+      "Settle quota if the completed-cycle count is divisible by 3; check dismissal again. No optional actions can interrupt steps 2-4.",
+      "Clear cycle marks, grant 1 light recovery, increment current cycle, reset visited stops, and display the next cycle's modifier/quota information.",
+      "Refill toward five using continuous fixed-order cohorts. Draw memories to three once.",
+      "Prepare: board, calm at most one waiting soul, repair, release wraiths, choose route and optionally play one memory. On confirmed departure, capture waiting and separation snapshots."
+    ]
+  }
+}

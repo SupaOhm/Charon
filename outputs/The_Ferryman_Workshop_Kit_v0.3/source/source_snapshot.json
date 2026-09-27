@@ -1,0 +1,56 @@
+[
+  {
+    "file": "Decided_Rules.md",
+    "source": "outputs/The_Ferryman_v0.3_Decided_Rules.md",
+    "sha256": "459d7a8501b5e0674e95e31db09806dd6657117da1470b44a42684d5f9e5cdfb",
+    "lastCommit": "932a7ac 2026-09-27T00:23:32+07:00 docs: organize repository navigation and versioned project guides"
+  },
+  {
+    "file": "SHARED_CONTRACT.md",
+    "source": "v0.3_handoffs/SHARED_CONTRACT.md",
+    "sha256": "2a90fb7c41c0abf086034ef21da23bfdfb7ad5ba343fb08698f44e3ff879528a",
+    "lastCommit": "932a7ac 2026-09-27T00:23:32+07:00 docs: organize repository navigation and versioned project guides"
+  },
+  {
+    "file": "Workshop_Handoff.md",
+    "source": "v0.3_handoffs/05_ChatGPT_Workshop_Art.md",
+    "sha256": "2e075aea9bd2c5306b0d13fb2be7bfdb3a284ed21dba90b74a9e9e7cbb1d6ff4",
+    "lastCommit": "6cf0ee6 2026-09-27T11:49:58+07:00 add: 01 art. and new handoff"
+  },
+  {
+    "file": "Art_Handoff.md",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/handoff/art.md",
+    "sha256": "9b553a77e5a49ae102d117fca27782dd632f2ef5d9c4f1ae75c4fe9fca2fb6c7",
+    "lastCommit": "6cf0ee6 2026-09-27T11:49:58+07:00 add: 01 art. and new handoff"
+  },
+  {
+    "file": "MYTH_AND_VISUAL_NOTES.md",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/MYTH_AND_VISUAL_NOTES.md",
+    "sha256": "3f6276ca10947ec2dd5d0e3bb1fd28899af6375b64f5c7afe2be02c5a9aed4ec",
+    "lastCommit": "6cf0ee6 2026-09-27T11:49:58+07:00 add: 01 art. and new handoff"
+  },
+  {
+    "file": "PROVENANCE.json",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/PROVENANCE.json",
+    "sha256": "b8a0a297ee8b2a434420eaeee4319e790a2a08719b654f44e598a1cb8f732006",
+    "lastCommit": "6cf0ee6 2026-09-27T11:49:58+07:00 add: 01 art. and new handoff"
+  },
+  {
+    "file": "PROVENANCE_R2.json",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/PROVENANCE_R2.json",
+    "sha256": "0d7ddf24e4385de06096407b09e13d550a1f52e92d316973720777529ad2bf52",
+    "lastCommit": "6cf0ee6 2026-09-27T11:49:58+07:00 add: 01 art. and new handoff"
+  },
+  {
+    "file": "VALIDATION_R2.json",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/VALIDATION_R2.json",
+    "sha256": "f09d1505d1750099ff72cd75448d16567efd68984faa368fae587632b064c93e",
+    "lastCommit": "6cf0ee6 2026-09-27T11:49:58+07:00 add: 01 art. and new handoff"
+  },
+  {
+    "file": "assets.js",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/assets.js",
+    "sha256": "3b5a31edbf41a48153ade5a2fb524657f8a538b4c71c229908ab6c9c186383c1",
+    "lastCommit": "6cf0ee6 2026-09-27T11:49:58+07:00 add: 01 art. and new handoff"
+  }
+]

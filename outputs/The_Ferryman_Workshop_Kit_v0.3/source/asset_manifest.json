@@ -1,0 +1,356 @@
+[
+  {
+    "key": "apprentice",
+    "file": "assets/art/apprentice.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png",
+    "sha256": "8fea9e31006a095966ed9d1b3a62dcc90a5f2153917d0149730cb9811b66c433",
+    "width": 1024,
+    "height": 1536,
+    "alt": "A young hooded river guide holds a glowing bronze lantern against teal mist."
+  },
+  {
+    "key": "boat",
+    "file": "assets/art/boat.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/boat.png",
+    "sha256": "98756a61bf5d5b13b939c0d8b63c5f73d01710d91c7138918c32ebdf06377d2e",
+    "width": 1536,
+    "height": 1024,
+    "alt": "An empty dark wooden ferry with a raised prow, plain benches, an oar and a bronze lantern."
+  },
+  {
+    "key": "wraith",
+    "file": "assets/art/wraith-r2.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/wraith-r2.png",
+    "sha256": "a636ea22b54a4dd0715f83b04820bbd5288fcc28d66a13ae0fe24c35e7fec989",
+    "width": 1024,
+    "height": 1536,
+    "alt": "A furious spectral figure screams and reaches forward with a clawlike hand amid torn shroud and turbulent mist."
+  },
+  {
+    "key": "shore",
+    "file": "assets/art/shore-r2.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/shore-r2.png",
+    "sha256": "ebef2ed52f5123a99cf99f52e3b9efc455a794b51455cc7d5540eabb1ae56f60",
+    "width": 1536,
+    "height": 1024,
+    "alt": "A bare willow shades waiting souls beside a dark river confluence and rough timber boarding plank."
+  },
+  {
+    "key": "elysium",
+    "file": "assets/art/elysium-r2.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/elysium-r2.png",
+    "sha256": "0ab0336bd71e9ce4250c299ab4901a0c1e3eef1bdca1e71e8711eb98f8e68c38",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Golden flowers and flowering trees cover an open sunlit coastal meadow overlooking distant islands."
+  },
+  {
+    "key": "asphodel",
+    "file": "assets/art/asphodel-r2.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/asphodel-r2.png",
+    "sha256": "a97669e9cd13aadb3cab1f3e8c57abf2933e2d74f2c13b3ec186b03ae069b15c",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Distant shades wander a vast flat field of pale asphodel flowers beneath gray-violet mist."
+  },
+  {
+    "key": "tartarus",
+    "file": "assets/art/tartarus-r2.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/tartarus-r2.png",
+    "sha256": "f226518732adfa150d00582c02bc4f53e1d13b8d6e6cdb92741d02166fc99e2f",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Monumental bronze gates and a surrounding barrier loom over a violet-black subterranean abyss."
+  },
+  {
+    "key": "haven",
+    "file": "assets/art/haven-r2.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/haven-r2.png",
+    "sha256": "c881ecab2c5249a90d6be269a4a7d1b191b4f8e394eead6b7f327f97b000b5c0",
+    "width": 1536,
+    "height": 1024,
+    "alt": "Amber lantern light warms a sheltered timber boat workshop with spare ribs, ropes and repair tools."
+  },
+  {
+    "key": "S01",
+    "file": "assets/art/S01.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S01.png",
+    "sha256": "f28f7043eede01ec8f74ab5ef3fb3f3f042d387e04ade6ba7f51eb2c83c55212",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The Mother holds a sea-green shawl with an ivory border over a plain linen gown."
+  },
+  {
+    "key": "S02",
+    "file": "assets/art/S02.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S02.png",
+    "sha256": "caf49aa00645f3be72a0264a7b9ddc732f343aafe20a0e0ddf6ff688c6e45aa2",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The Child wears a sea-green wrap with the same ivory border as the Mother."
+  },
+  {
+    "key": "S03",
+    "file": "assets/art/S03.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S03.png",
+    "sha256": "c9dc76b122c6c21d16fe7bc9f97868b1adf2c9d0bd9b786da1d0e35b06f90491",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The Merchant wears an ochre mantle with a closed leather trade pouch at the waist."
+  },
+  {
+    "key": "S04",
+    "file": "assets/art/S04.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S04.png",
+    "sha256": "5b1ab830ac160ef2e9be72b5250bb69ae5194c7f633d7904ce3999f91d2fbca0",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The Red Soldier wears a brick-red cloak and bronze armor, holding a helmet beneath one arm."
+  },
+  {
+    "key": "S05",
+    "file": "assets/art/S05.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S05.png",
+    "sha256": "067f4d1d48b950fa005b939aee7168c10638e55bd1f062835f24935abc2aadbd",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The silver-haired Poet holds a closed scroll against a muted plum-gray wrap."
+  },
+  {
+    "key": "S06",
+    "file": "assets/art/S06.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S06.png",
+    "sha256": "d905271b8d281d46cee1e8d62bb3b41b6e980d7369eed9c376480fcba4f3903f",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The older Blue Soldier wears a slate-blue cloak and bronze armor without a helmet."
+  },
+  {
+    "key": "S07",
+    "file": "assets/art/S07.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S07.png",
+    "sha256": "de073f0fc55e1dca27a9cd234def57e85dd87fb8a6a7081f58a1c846f7d3f189",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The Cook wears a cloth headwrap and apron, holding a wooden spoon across folded arms."
+  },
+  {
+    "key": "S08",
+    "file": "assets/art/S08.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S08.png",
+    "sha256": "37aeae89b4b4aa39e6f9ba7f60dd29b5890a4bcd2b56bf15444413d10ab16deb",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The Mason wears a stone-dusted work apron and holds a small wooden mallet."
+  },
+  {
+    "key": "S09",
+    "file": "assets/art/S09.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S09.png",
+    "sha256": "de0d5214d40d964ed5559297d615bdeca51732fc7a509de96d7e5f646c813526",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The short-haired Messenger holds the strap of a closed leather satchel."
+  },
+  {
+    "key": "S10",
+    "file": "assets/art/S10.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S10.png",
+    "sha256": "8b2fd66d543b7a3c6cf3dc82a87d6098b1cb90fdfdbc1a4c165623d7fd62a267",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The Keeper wears a dark violet mantle and a simple bronze key on a cord."
+  },
+  {
+    "key": "S11",
+    "file": "assets/art/S11.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S11.png",
+    "sha256": "87a23b020311344705f9b75dcd790b82e34bf3581b6625a1b11c066b47bccca5",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The Musician holds a wooden lyre and wears a blue sash with twin ivory stripes."
+  },
+  {
+    "key": "S12",
+    "file": "assets/art/S12.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/S12.png",
+    "sha256": "1182585798634298864617b53c26aeaf7b6f10f7b3d18cc8a96fe5665e06a359",
+    "width": 1024,
+    "height": 1536,
+    "alt": "The Listener rests his hands together and wears blue cloth with the Musician's twin ivory stripes."
+  },
+  {
+    "key": "obolToken",
+    "file": "assets/art/obol-token-r2.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/obol-token-r2.png",
+    "sha256": "79e75cb5137868770508e8207f059405f8247fd62df973593af90c86d755b10b",
+    "width": 1254,
+    "height": 1254,
+    "alt": "A hammered silver obol with an original raised oar-and-river emblem."
+  },
+  {
+    "key": "lightToken",
+    "file": "assets/art/light-token-r2.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/light-token-r2.png",
+    "sha256": "b9421d7d7eac21000fb33dc7fdf28b564d50f2dbb92e873ea20633aeb380eb99",
+    "width": 1254,
+    "height": 1254,
+    "alt": "An upright weathered bronze lantern glows with a clear amber flame."
+  },
+  {
+    "key": "memoryBack",
+    "file": "assets/art/memory-back-r2.png",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/memory-back-r2.png",
+    "sha256": "6331b2ab93d19ee3e0c631623d2c4818e908b3c77720d0890d6caa1054c9fb9b",
+    "width": 1024,
+    "height": 1536,
+    "alt": "A bronze-bordered memory-card back with a lantern and winding silver river on dark teal."
+  },
+  {
+    "key": "obol",
+    "file": "assets/art/icons/obol.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/obol.svg",
+    "sha256": "81f1e40df916d0b3a4c7207e8f3ed8b0f6c294869c5251c5a9e342ee3738d27f",
+    "type": "vector"
+  },
+  {
+    "key": "light",
+    "file": "assets/art/icons/light.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/light.svg",
+    "sha256": "b44257eceb5eb4093c1202417f39b2befbabc0d76ff641a28859cd3b0ee81dcc",
+    "type": "vector"
+  },
+  {
+    "key": "hull",
+    "file": "assets/art/icons/hull.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/hull.svg",
+    "sha256": "24dbf1ee55741d9798742c04d1bb57c5adb4dd2a6604f0e9712464e27aca8520",
+    "type": "vector"
+  },
+  {
+    "key": "reprimand",
+    "file": "assets/art/icons/reprimand.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/reprimand.svg",
+    "sha256": "64483a0b9beb196305fd5a2bab13fc28393e62c3bc0ad5bc48149b521b42a2eb",
+    "type": "vector"
+  },
+  {
+    "key": "seats",
+    "file": "assets/art/icons/seats.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/seats.svg",
+    "sha256": "7cfdf9ee35e8f8c2a07b012946c58b9930c1228433a57edc8fb852b934cb17c1",
+    "type": "vector"
+  },
+  {
+    "key": "fog",
+    "file": "assets/art/icons/fog.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/fog.svg",
+    "sha256": "134eb1912723f6fb76f5d3bd3fc7f633c6d39b633f5bfe802c1fad683b4eecf8",
+    "type": "vector"
+  },
+  {
+    "key": "rock",
+    "file": "assets/art/icons/rock.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/rock.svg",
+    "sha256": "b46d1359132b819ef06becef067986a857c82f9b198811fb79a6c2cbe260e394",
+    "type": "vector"
+  },
+  {
+    "key": "anger",
+    "file": "assets/art/icons/anger.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/anger.svg",
+    "sha256": "2f6d815e9b4b8f68ce14c75586ff2f646b4a893cfa6500eff060041a5bf500e5",
+    "type": "vector"
+  },
+  {
+    "key": "protection",
+    "file": "assets/art/icons/protection.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/protection.svg",
+    "sha256": "3c447fb8b527c1611067aebbb6556df5b3ccba14a0bf43a58bb0b62ccf36073b",
+    "type": "vector"
+  },
+  {
+    "key": "link",
+    "file": "assets/art/icons/link.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/link.svg",
+    "sha256": "cf3b929e55c1c73b75c59fc4c32d29bd936619613d4d6157b0d57db2981aa461",
+    "type": "vector"
+  },
+  {
+    "key": "node_shore",
+    "file": "assets/art/icons/node_shore.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/node_shore.svg",
+    "sha256": "878acca365e7b307b568874f53849c2fcdec3e3ea78919524903e7a6f6f2cced",
+    "type": "vector"
+  },
+  {
+    "key": "node_elysium",
+    "file": "assets/art/icons/node_elysium.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/node_elysium.svg",
+    "sha256": "13f32e47c9e2950b51a4e1d927bc837dc77e01da7c80f95116742f972bb2c65e",
+    "type": "vector"
+  },
+  {
+    "key": "node_asphodel",
+    "file": "assets/art/icons/node_asphodel.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/node_asphodel.svg",
+    "sha256": "156bfe08c0b4e4f5bdd67dd48cdb7c927e80ba0be4ea11d803a1846c3bf779c3",
+    "type": "vector"
+  },
+  {
+    "key": "node_tartarus",
+    "file": "assets/art/icons/node_tartarus.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/node_tartarus.svg",
+    "sha256": "d1ab1e448f341f99531cd694c64940ff898d46802a620cf69c429c1f9e48c845",
+    "type": "vector"
+  },
+  {
+    "key": "node_haven",
+    "file": "assets/art/icons/node_haven.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/node_haven.svg",
+    "sha256": "73b8fae67a7c7f59b12e0263e92870374078369bdac2b74cd4f0d9d9b237549e",
+    "type": "vector"
+  },
+  {
+    "key": "R01",
+    "file": "assets/art/icons/R01.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/R01.svg",
+    "sha256": "be59497460c863e0b59bd5fda6f308700284d529787b4f1ba12ba2713e1e1eb7",
+    "type": "vector"
+  },
+  {
+    "key": "R02",
+    "file": "assets/art/icons/R02.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/R02.svg",
+    "sha256": "333723642b18eb33f8aca7080f4e5d3897d7c266928ea295072003238599d1df",
+    "type": "vector"
+  },
+  {
+    "key": "R03",
+    "file": "assets/art/icons/R03.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/R03.svg",
+    "sha256": "a001d353062323faba949864c9d355f77ef386a203788ef2245b89d58317a4f4",
+    "type": "vector"
+  },
+  {
+    "key": "R04",
+    "file": "assets/art/icons/R04.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/R04.svg",
+    "sha256": "5815ca9d681dcef3ed1f14cc1347801a1c4bd9da51c78b5972efe4f755dd0d5d",
+    "type": "vector"
+  },
+  {
+    "key": "R05",
+    "file": "assets/art/icons/R05.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/R05.svg",
+    "sha256": "5751ecfd30bfc7603345af6f8dd7fac965a03622ee241669e318bacd4e57a2bd",
+    "type": "vector"
+  },
+  {
+    "key": "R06",
+    "file": "assets/art/icons/R06.svg",
+    "source": "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/icons/R06.svg",
+    "sha256": "08f32ed45a88bd309261a2f1d52b7ca6199ee7c4a21bca6bd84c7a9e22a5fc70",
+    "type": "vector"
+  }
+]
