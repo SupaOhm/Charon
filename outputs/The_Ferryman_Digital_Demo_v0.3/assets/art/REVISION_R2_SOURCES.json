@@ -1,0 +1,91 @@
+[
+  {
+    "key": "elysium",
+    "file": "elysium-r2.png",
+    "source": "C:\\Users\\purin\\.codex\\generated_images\\01a0debe-fe04-7e13-86bc-6727a4033e72\\exec-3f6a133b-b0ed-455c-9bc9-a3ee9adbd3cb.png",
+    "prompt": "Use case: stylized-concept. Completely redesign the Elysium environment in image 1, preserving only the handmade painterly engraved medium also seen in image 2. The old scene is rejected because its canyon, stairs, cypresses and central river resemble every other location. Replace its entire composition. Deliver one wide landscape painting, 1536x1024, no labels. Elysium is now a luminous expansive coastal meadow at the edge of the world: rolling emerald and sage grass fills the foreground and middle ground, abundant golden blossoms and flowering fruit trees on the outer thirds, long flowering branches stirred by a gentle sea breeze. A clear turquoise Oceanus and distant small blessed islands appear across the far horizon, with a single modest sunlit tower far away on one island, not a huge classical temple. Warm honey and apricot sunlight, bright pale blue sky, inviting rich spring vegetation. A narrow calm inlet touches the bottom-right corner to imply ferry access, but NO central river, canyon walls, ruined columns, large stone stairs, waterfall, or repeated cypress skyline. Build distinct organic rounded silhouettes and open airy space, natural diagonal path through the meadow. Myth inspiration: Homer's mild Elysian plain and Pindar's island flowers and ocean breezes, interpreted for the game. Keep overall picture atmospheric and tactile, not photoreal or cartoon. Beautiful welcoming place without angels, halos or moral ranking of passengers. No named people, no boat, no UI, text, icons, watermark or decorative border. Put lush detail at edges and keep central meadow relatively simple; do not replace it with empty dark water.",
+    "references": [
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/elysium.png",
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+    ]
+  },
+  {
+    "key": "asphodel",
+    "file": "asphodel-r2.png",
+    "source": "C:\\Users\\purin\\.codex\\generated_images\\01a0debe-fe04-7e13-86bc-6727a4033e72\\exec-195cbb88-706d-4409-b936-a8f236341d20.png",
+    "prompt": "Use case: stylized-concept. Completely redesign image 1 into a distinctive Asphodel Meadows environment for The Ferryman. Image 2 is a style-only reference for painted engraved grain. Deliver one wide landscape painting 1536x1024. Discard the old central river, side landing, cypresses, ruins, columns and repeated rocky valley. Composition: the viewer stands low among a vast seemingly endless flat field of pale ivory asphodel flower stalks. Slender branching stems with sparse star-shaped white blossoms, dusty sage leaves; near stems tall in the lower left and right, distant flowers blend into horizontal bands of gray-violet fog. A few small translucent human shades drift far apart in the middle distance, no identifiable story characters and no horror expressions. Sky is a heavy muted lavender-gray canopy, no sun disc, sunset, mountains, buildings or trees. A narrow still dark water margin touches the very bottom of frame to imply ferry access, but the flowers and fog occupy almost the entire picture. An indistinct worn path disappears straight into the mist slightly off center. Mood: hushed, remote, suspended memory. Myth basis: Homer's meadow of asphodel inhabited by shades. Painted illustrative detail with subtle etched paper grain matching the character style. Strong horizontal plain silhouette, white flowers on gray-violet with minimal amber, sharply different from golden coastal Elysium and dark cliff environments. No text, logos, UI, numbers, labels or border. No temples, aqueduct, waterfalls, moored boat or lantern post.",
+    "references": [
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/asphodel.png",
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+    ]
+  },
+  {
+    "key": "tartarus",
+    "file": "tartarus-r2.png",
+    "source": "C:\\Users\\purin\\.codex\\generated_images\\01a0debe-fe04-7e13-86bc-6727a4033e72\\exec-47870aac-475d-4ba0-9bb1-11fdb9da28df.png",
+    "prompt": "Use case: stylized-concept. Completely reimagine the Tartarus environment in image 1. Use image 2 only for painterly engraved texture. One wide 1536x1024 painting. Remove the old familiar river valley, aqueduct, cypress forest and stairway banks. This place is a vast subterranean cosmic abyss, not an outdoor landscape. View from a narrow basalt ferry ledge down into a dizzying black chasm. Monumental ancient bronze double gates embedded into jagged black rock dominate the right third, riveted metal glowing with dull red-copper reflected light. A huge bronze encircling barrier curves away into depth. Twisting rootlike black rock formations hang from a cavern ceiling, while stormlike soot and deep violet vapour descend through the center. Very distant colossal imprisoned Titan silhouettes are barely discernible beyond the gates, immense nonhuman scale but no tortured close-ups or gore. Small controlled ember-orange fissures illuminate depth; no broad lava river and no Christian hell or devils. Bottom-left has a narrow cold black pool and a modest mooring ledge for ferry access. Composition is steep diagonal and vertiginous, with no sky, sun, vegetation, flowers, colonnade or waterfall. Myth basis: Hesiod's deep gulf, bronze gates and barrier, Titans beyond. Texture family matches existing game, but palette is obsidian, bruised violet and tarnished copper. Large distinct shapes remain legible as a thumbnail. No characters on the landing, no boat, text, logos, symbols, labels, UI or border. This is the game environment, not a judgment of the worth of passengers.",
+    "references": [
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/tartarus.png",
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+    ]
+  },
+  {
+    "key": "shore",
+    "file": "shore-r2.png",
+    "source": "C:\\Users\\purin\\.codex\\generated_images\\01a0debe-fe04-7e13-86bc-6727a4033e72\\exec-ccef8c5c-bcde-40e3-b0d3-bbb29ac9394d.png",
+    "prompt": "Use case: stylized-concept. Completely redesign image 1, the starting shore of The Ferryman, using image 2 only for the painterly engraved medium and apprentice's bronze amber lantern. Output one wide 1536x1024 environment. The starting shore is a raw liminal muddy riverbank at night, not a monumental stone city or scenic canyon. Dominant image: a large ancient leaning willow on the left, its roots clawing into dark silt and drooping bare branches hanging above the waiting bank; a sparse grove of tall pale-trunked poplars dissolves in black-green fog behind it. Across the middle distance, two river channels visibly merge around a solitary worn rock into a broad ink-black current. Small indistinct waiting shades gather under the willow on the far left bank, no exact soul roster and no fixed seat/counter cues. A rough low timber boarding plank and one warm bronze lantern mark the near-right water edge. No ferry painted here so UI can place the boat. Myth inspiration is Odyssey 10's poplars, willows and river confluence, adapted as the game's embarkation bank. Palette black-green, silt gray, sickly moon silver and one small amber flame. Asymmetrical diagonal shore composition, low horizon, long bare branches unlike Elysium's flowering rounded trees or Asphodel's flat flowers. Painterly engraved texture, readable silhouettes. NO temple, gate, stone stair flight, aqueduct, cypress forest, waterfall, golden sunset or mountains. No text, symbols, game UI, logos, labels or border.",
+    "references": [
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/shore.png",
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+    ]
+  },
+  {
+    "key": "haven",
+    "file": "haven-r2.png",
+    "source": "C:\\Users\\purin\\.codex\\generated_images\\01a0debe-fe04-7e13-86bc-6727a4033e72\\exec-03ffe2ae-a07d-4cb3-bce8-af840cf39eac.png",
+    "prompt": "Use case: stylized-concept. Redesign image 1, the haven, from scratch as a clearly different environment. Image 2 sets painterly engraved style and the bronze lantern. One wide painting, 1536x1024. The camera is INSIDE a low timber boathouse built into a natural rock alcove, looking diagonally across the workshop toward a small side opening onto the misty river at the far right. Close tactile interior fills at least 80 percent of image: curved boat ribs suspended from beams, thick coils of rope, stacked replacement planks, wooden pegs and mallets, a practical carpenter's bench along the left, clay lamp and a familiar round-capped bronze lantern glowing on the bench. A short worn wood slipway slopes into a shallow sheltered pool at bottom right. No finished second boat, no people. Warm amber light pools on honey-brown timber against muted sage rock and smoky dark corners. Rounded enclosing rock arch and chunky horizontal beams define a safe intimate shape, strong contrast with Tartarus's immense vertical bronze gates, Asphodel's flat plain and Elysium's open coast. This haven is an original game location, not a claimed specific ancient myth site; no shrine, goddess statue or invented sacred myth landmark. Painterly engraved texture, broad readable shapes, usable calm central wall/air without copying a distant river valley. NO sky panorama, temples, aqueducts, cypress skyline, stair terraces, waterfall or central river. No text, writing, prices, equipment upgrade icons, logos, UI or border.",
+    "references": [
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/haven.png",
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+    ]
+  },
+  {
+    "key": "wraith",
+    "file": "wraith-r2.png",
+    "source": "C:\\Users\\purin\\.codex\\generated_images\\01a0debe-fe04-7e13-86bc-6727a4033e72\\exec-25c1dad5-db38-4fb5-873f-bc9fe80041b9.png",
+    "prompt": "Use case: precise-object-edit. Redesign the wraith in this portrait to be frightening, vengeful and immediately readable as an active threat. The current sorrowful passive figure is rejected. Keep portrait 1024x1536 and the same painterly engraved visual family, opaque dark charcoal background. Replace the peaceful face and clasped hands with a gaunt spectral human face leaning aggressively toward the viewer, sharply furrowed brow, two fierce tiny pale-burning eyes sunk in shadow and an open dark mouth in a furious silent cry. One long spectral hand reaches out toward the viewer with five clearly formed clawlike fingers, another lower hand clutches torn cloth; keep both hands fully inside the frame. The head and shoulders form a jagged looming silhouette, with shredded black-gray burial fabric whipping outward like smoke. Remnants of pale ivory shroud and recognizable human features preserve the origin as an abandoned soul. Body twists into turbulent cold blue-black vapour, a few faint muted ember cracks through the smoke imply stored anger. Strong directional cold rim light separates silhouette, dark face kept readable. Threat comes from expression, posture and torn spectral shape. No gore, exposed organs, wounds, skull face, demon horns, bat wings, armor, weapon, lantern, crown or background scenery. No text, numbers, UI, logo or border. This is a fantasy game wraith, not a portrait of a named mythological Fury. Keep enough margin around fingers and hood for contain placement. Dramatic, scary and accusatory, not gentle, mournful or sleepy.",
+    "references": [
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/wraith.png"
+    ]
+  },
+  {
+    "key": "obolToken",
+    "file": "obol-token-r2.png",
+    "source": "C:\\Users\\purin\\.codex\\generated_images\\01a0debe-fe04-7e13-86bc-6727a4033e72\\exec-8440c91d-a398-4f98-b550-f00dffb5b3bd.png",
+    "prompt": "Use case: stylized-concept. Create one square 1024x1024 finished currency illustration for The Ferryman, matching the supplied game's painterly engraved style. Subject: a SINGLE small ancient hammered silver obol, shown large and almost face-on with a modest perspective revealing a thin irregular edge. Cool worn silver, imperfect hand-struck rim, subtle dark patina in recesses. The coin bears a simple bold ORIGINAL game emblem: a single diagonal ferryman's oar above two engraved river waves. This is an invented reverse design inspired by ancient silver coin materials, not a replica or claimed archaeological artifact. No owl, face, letters, numerals, currency sign or denomination. The embossed oar and waves must read as large simple shapes. Center the entire coin with at least 18 percent breathing room against a deliberate opaque deep charcoal-teal background, soft subtle shadow, warm reflected lantern light along one edge. Tactile metal rendered with painterly etched grain, not a glossy 3D cryptocurrency token, no jewels, gold crown, stacked coins, extra objects, border, text, logo, UI or checkerboard. Icon design should contrast with the warm amber lantern resource. The source apprentice image is only a medium and color reference, do not include a person or lantern.",
+    "references": [
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+    ],
+    "group": "components"
+  },
+  {
+    "key": "lightToken",
+    "file": "light-token-r2.png",
+    "source": "C:\\Users\\purin\\.codex\\generated_images\\01a0debe-fe04-7e13-86bc-6727a4033e72\\exec-16cc1375-7ffb-4d1a-aa05-730749539ed7.png",
+    "prompt": "Use case: stylized-concept. Create one square 1024x1024 standalone resource illustration for The Ferryman, matching the supplied apprentice's lantern EXACTLY in broad design: round domed bronze cap, vertical rectangular glass body, small hanging ring and simple bronze base. Depict the single lantern upright, centered, complete and unobstructed, occupying about 65 percent of canvas. Clear strong amber flame at its heart, warm golden light glowing through glass, aged bronze metal with subtle teal patina. A few tiny warm sparks close to the flame only. Deliberate opaque dark charcoal-teal background, subtle soft amber glow directly around the lantern, no scenery or person. Painterly engraved treatment consistent with the game. Clean broad silhouette useful as a resource illustration, without unnecessary ornament. No coin, counter, number, lettering, labels, UI, border, watermark or checkerboard. Distinct amber vertical lantern shape to contrast with the silver round obol currency token. Do not add a handle large enough to dominate the lantern. No cropped edges.",
+    "references": [
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+    ],
+    "group": "components"
+  },
+  {
+    "key": "memoryBack",
+    "file": "memory-back-r2.png",
+    "source": "C:\\Users\\purin\\.codex\\generated_images\\01a0debe-fe04-7e13-86bc-6727a4033e72\\exec-08b9d130-9cf0-4266-9ec9-e5627ff2430b.png",
+    "prompt": "Use case: stylized-concept. Create ONE finished portrait memory-card BACK artwork for The Ferryman, 1024x1536, flat front-on rectangular card design, no perspective, no scene mockup. Use the supplied game portrait only for subtle painterly engraved texture and charcoal-teal / amber palette; do not include a person. Full-bleed deep midnight teal field with a restrained worn bronze double-line rectangular border inset safely from all four edges. At the center, a small iconic bronze lantern with one amber flame floats above a winding silver river ribbon that loops back into itself, suggesting remembered journeys and recycling. A few faint scattered ivory sparks like fragments of recollection, ornamental fine river eddies concentrated near corners. Symmetrical balanced layout, readable large central emblem, quiet unmarked fields around it. This is the shared reverse for all six memory types; no distinct effect, cost, reward, level, destination, numerals, pips or identity encoding. No words, letters, logos, faux writing or interface labels. No coin, character, skull or complex landscape. Rich tactile engraved-paper painting, elegant but restrained, matching the atmospheric game. Outer image edges remain straight, not a photograph of a card on a table. Opaque artwork, no checkerboard.",
+    "references": [
+      "E:/Charon/outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+    ],
+    "group": "components"
+  }
+]
