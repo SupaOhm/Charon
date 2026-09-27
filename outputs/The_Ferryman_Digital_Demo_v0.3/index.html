@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#142a30">
+  <title>The Ferryman: Apprentice Charon</title>
+  <link rel="icon" href="assets/art/icons/light.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <!-- Contract load order: rules-data, engine, assets, content, app. -->
+  <script src="rules-data.js"></script>
+  <script src="engine.js"></script>
+  <script src="assets/assets.js"></script>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#phase">Skip to the current step</a>
+  <header class="masthead">
+    <div class="brand"><span id="title">The Ferryman: Apprentice Charon</span><small>v0.3 prototype</small></div>
+    <nav aria-label="Run tools">
+      <button id="help-btn" class="quiet" type="button">How to play</button>
+      <button id="reference-btn" class="quiet" type="button">Event reference</button>
+      <button id="export-btn" class="quiet" type="button" disabled>Export run</button>
+      <label class="quiet file-button">Load save<input id="import-input" type="file" accept=".json,application/json,text/plain" class="sr-only"></label>
+      <button id="newrun-btn" class="quiet" type="button">New run</button>
+    </nav>
+  </header>
+  <p id="pack-note" class="pack-note" hidden></p>
+  <div id="message" class="message" hidden></div>
+
+  <main>
+    <section id="start-screen" class="start" hidden aria-labelledby="start-title">
+      <div id="hero-art" class="hero-art"></div>
+      <div class="start-copy">
+        <p class="eyebrow">Endless run &middot; turn-based</p>
+        <h1 id="start-title">The Ferryman: Apprentice Charon</h1>
+        <p id="start-intro"></p>
+        <div id="start-actions" class="action-row"></div>
+      </div>
+    </section>
+
+    <section id="blocked-screen" class="blocked" hidden>
+      <h1>The game could not start</h1>
+      <p id="blocked-text"></p>
+    </section>
+
+    <div id="game-screen" hidden>
+      <section id="status-bar" class="status-bar" aria-label="Resources and cycle"></section>
+      <p id="cycle-note" class="cycle-note"></p>
+      <section class="map-wrap" aria-labelledby="map-title">
+        <h2 id="map-title" class="sr-only">Map</h2>
+        <div id="map" class="map"></div>
+        <p id="map-legend" class="map-legend"></p>
+      </section>
+      <div class="layout">
+        <section id="phase" class="phase"></section>
+        <aside class="aside" aria-labelledby="aside-title">
+          <div class="aside-head"><p class="eyebrow">Before you let go of the rope</p><h2 id="aside-title">Departure</h2></div>
+          <div id="aside-body" class="aside-body"></div>
+        </aside>
+      </div>
+      <section class="history-wrap" aria-labelledby="history-title">
+        <details>
+          <summary><h2 id="history-title">Run log</h2></summary>
+          <div id="history"></div>
+        </details>
+      </section>
+    </div>
+  </main>
+  <footer>The Ferryman v0.3 prototype. All numbers are untested defaults. Art and copy are prototype material pending team approval.</footer>
+
+  <dialog id="confirm-dialog" aria-labelledby="confirm-title"></dialog>
+  <dialog id="help-dialog"></dialog>
+  <dialog id="reference-dialog"></dialog>
+</body>
+</html>

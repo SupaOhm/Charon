@@ -1,0 +1,84 @@
+{
+  "ranAt": "2026-09-27T11:32:18.031Z",
+  "node": "v26.8.1",
+  "counts": {
+    "PASS": 15
+  },
+  "results": [
+    {
+      "name": "index.html loads scripts in contract order",
+      "status": "PASS",
+      "detail": "rules-data.js, engine.js, assets/assets.js, content.js, app.js"
+    },
+    {
+      "name": "no remote URLs, CDN, fetch or remote fonts in UI files",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "local references in index.html exist",
+      "status": "PASS",
+      "detail": "7 references"
+    },
+    {
+      "name": "app.js renders text only (no innerHTML, insertAdjacentHTML, document.write, eval)",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "app.js calls only the public engine API",
+      "status": "PASS",
+      "detail": "createGame, deserialize, dispatch, getView, previewDelivery, serialize, version"
+    },
+    {
+      "name": "app.js dispatches only canonical actions",
+      "status": "PASS",
+      "detail": "BOARD, CALM, DELIVER, DEPART, PLAY_MEMORY, RELEASE_WRAITH, REPAIR, RESOLVE_EVENT, UNBOARD"
+    },
+    {
+      "name": "run save and discovery knowledge use separate keys; New Run leaves knowledge alone",
+      "status": "PASS",
+      "detail": "charon.v03.run / charon.v03.discoveries"
+    },
+    {
+      "name": "release build has no development fixtures or cheat paths",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "engine loads as classic scripts (browser path) and exposes the contract API",
+      "status": "PASS",
+      "detail": "engine {\"engine\":\"0.3.0\",\"contract\":1,\"rules\":\"0.3\",\"schema\":1}"
+    },
+    {
+      "name": "initial view: spec start values",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "invalid action: ok:false, same state, error code and message",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "deserialize rejects malformed saves",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "content pack: all stable IDs present, strings only",
+      "status": "PASS",
+      "detail": "24 help entries, 7 tutorial steps"
+    },
+    {
+      "name": "art pack: essential keys and every referenced file exist locally",
+      "status": "PASS",
+      "detail": "62 manifest entries resolve"
+    },
+    {
+      "name": "icons referenced by app.js exist in the manifest",
+      "status": "PASS",
+      "detail": "16 icons"
+    }
+  ]
+}

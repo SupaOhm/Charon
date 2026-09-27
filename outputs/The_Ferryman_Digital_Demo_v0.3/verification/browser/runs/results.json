@@ -1,0 +1,171 @@
+{
+  "kind": "Agent-driven browser automation against the real engine. Not a human playtest; not balance evidence.",
+  "ranAt": "2026-09-27T11:32:17.515Z",
+  "node": "v26.8.1",
+  "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "platform": "darwin arm64",
+  "counts": {
+    "PASS": 30
+  },
+  "results": [
+    {
+      "name": "start screen offers New run; no save yet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "initial resources match the engine and the spec",
+      "status": "PASS",
+      "detail": "2 / 6 | 2 | 3 / 3 | 0 / 3 | 1 | 2 obols; Next quota2 obolsDue when cycle 3 completes (in 3 more cycles)"
+    },
+    {
+      "name": "keyboard: Enter on a focused Board button boards and focus stays usable",
+      "status": "PASS",
+      "detail": "focus after re-render: phase-heading"
+    },
+    {
+      "name": "unboard is reversible and boarding refused past capacity with the engine reason",
+      "status": "PASS",
+      "detail": "Not enough free seats."
+    },
+    {
+      "name": "calming: 1 obol, once per cycle, other calm buttons then disabled",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "return route disabled before any destination; routes show one fog number each",
+      "status": "PASS",
+      "detail": "To Elysium=0, To Asphodel=1, To Tartarus=2"
+    },
+    {
+      "name": "delivery phase blocks preparation; nobody gains anger mid-cycle",
+      "status": "PASS",
+      "detail": "C01-S04:0,C01-S05:0,C01-S03:0"
+    },
+    {
+      "name": "delivery preview and wish reward match the engine; linked pair reveals E01 automatically",
+      "status": "PASS",
+      "detail": "preview \"If you confirm: +0 obols, +4 light, light becomes 6. Memories: Joined Memory, Joined Memor\"; light 2 -> 6"
+    },
+    {
+      "name": "delivery cannot be repeated (idempotent)",
+      "status": "PASS",
+      "detail": "second DELIVER rejected WRONG_PHASE (engine check against the saved state, not a UI click)"
+    },
+    {
+      "name": "free memory: one per crossing, optional mark, second card disabled with reason",
+      "status": "PASS",
+      "detail": "A memory has already been played before this crossing."
+    },
+    {
+      "name": "haven: light recovery, repairs follow engine permission with reason",
+      "status": "PASS",
+      "detail": "light 6 -> 6; The hull is already at full integrity."
+    },
+    {
+      "name": "return: anger only at cycle end; calm and memory mark protect; cycle advances",
+      "status": "PASS",
+      "detail": "forecast matched: C01-S04:0,C01-S05:1,C01-S03:0"
+    },
+    {
+      "name": "save/reload: page reload resumes the same run",
+      "status": "PASS",
+      "detail": "Resume (cycle 2)"
+    },
+    {
+      "name": "JSON export downloads a loadable file",
+      "status": "PASS",
+      "detail": "verification/browser/runs/export-cycle2.json, 0 session actions"
+    },
+    {
+      "name": "invalid save file is rejected and the current run is unchanged",
+      "status": "PASS",
+      "detail": "The file could not be loaded: Save data is not valid JSON. Your current run is unchanged.×"
+    },
+    {
+      "name": "exported file loads back through Load save",
+      "status": "PASS",
+      "detail": "cycle 3 run replaced by exported cycle 2"
+    },
+    {
+      "name": "invalid stored save is set aside, not deleted, and the game still starts",
+      "status": "PASS",
+      "detail": "A saved run could not be loaded (Save failed validation: unsupported state schemaVersion.). It was s"
+    },
+    {
+      "name": "courier play to cycle 4: quota settled at cycle 3, rocky routes with separate hull marker",
+      "status": "PASS",
+      "detail": "C3 Starting ShoreHades’ quota paid: 2 obols. Obols left: 3. | rocky [{\"fog\":\"0\",\"hull\":\"⚠ −1 hull\"},{\"fog\":\"0\",\"hull\":\"⚠ −1 hull\"},{\"fog\":\"1\",\"hull\":\"⚠ −1 hull\"}]"
+    },
+    {
+      "name": "rocky crossing damages hull; haven E04 restores it; repair at shore costs 1 obol per hull",
+      "status": "PASS",
+      "detail": "rocky 3 -> 2; E04 at haven 2 -> 3; rocky again -> 2; shore repair -> 3, obols 3 -> 2"
+    },
+    {
+      "name": "narrow 390x844 viewport: no horizontal scroll (prepare screen)",
+      "status": "PASS",
+      "detail": "overflow 0px (emulated, not a real phone)"
+    },
+    {
+      "name": "New run asks for confirmation, resets the run, keeps the event reference",
+      "status": "PASS",
+      "detail": "kept Shared Farewell, The Broken Landing; spoilers hidden until opened; cleared without touching the run"
+    },
+    {
+      "name": "exact zero light survives (Tartarus fog 2 with 2 light)",
+      "status": "PASS",
+      "detail": "light 0, run continues"
+    },
+    {
+      "name": "fog failure: lethal route warned, needs confirmation, ends with fog screen",
+      "status": "PASS",
+      "detail": "Run ended · fogThe lantern cannot sustain the crossingFog damage exceeded the available light. The run ended before arri"
+    },
+    {
+      "name": "dismissal: wraiths form only at return; predicted dismissal needs confirmation; dismissal screen",
+      "status": "PASS",
+      "detail": "completed cycles 3; wraiths formed at the final return: 5"
+    },
+    {
+      "name": "wraiths form at return and add fog next crossing; release costs 2 light, removes a reprimand; unaffordable is disabled",
+      "status": "PASS",
+      "detail": "light 6 -> 4, reprimands 2 -> 1, pressure 2 -> 1; at light 1: \"Releasing a wraith costs 2 light.\""
+    },
+    {
+      "name": "sinking by rocky crossings ends before arrival rewards",
+      "status": "PASS",
+      "detail": "ended by sinking on the third rocky crossing"
+    },
+    {
+      "name": "choice events: E03 accept pays 1 obol; E02 accept disabled with reason at 0 reprimands, decline works",
+      "status": "PASS",
+      "detail": "E03 accepted, obols 5 -> 4; E02 accept disabled: \"There are no reprimands to reduce.\", declined"
+    },
+    {
+      "name": "missing art file falls back to a labelled placeholder without breaking play",
+      "status": "PASS",
+      "detail": "placeholders: S01, boat"
+    },
+    {
+      "name": "direct file:// opening: engine loads and a new run starts (headless Chrome)",
+      "status": "PASS",
+      "detail": "start, board, reload-resume work from file://.../index.html"
+    },
+    {
+      "name": "no uncaught page exceptions or unexpected console errors",
+      "status": "PASS",
+      "detail": "2 expected errors from the deliberately failed art requests"
+    }
+  ],
+  "exceptions": [],
+  "consoleErrors": [
+    "Failed to load resource: net::ERR_FAILED http://127.0.0.1:64853/assets/art/boat.png",
+    "Failed to load resource: net::ERR_FAILED http://127.0.0.1:64853/assets/art/S01.png"
+  ],
+  "consoleWarnings": [
+    "[charon-ui] art file failed to load: boat assets/art/boat.png",
+    "[charon-ui] art file failed to load: S01 assets/art/S01.png"
+  ]
+}

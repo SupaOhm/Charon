@@ -1,0 +1,724 @@
+{
+  "kind": "charon-v0.3-run-export",
+  "exportedAt": "2026-09-27T11:32:11.264Z",
+  "appVersion": "0.3.0",
+  "engineVersion": {
+    "engine": "0.3.0",
+    "contract": 1,
+    "rules": "0.3",
+    "schema": 1
+  },
+  "contentVersion": "0.3",
+  "assetsRevision": "art-r2",
+  "save": "{\"schemaVersion\":1,\"rulesVersion\":\"0.3\",\"state\":{\"schemaVersion\":1,\"rulesVersion\":\"0.3\",\"seed\":3830465609,\"rng\":3830465609,\"phase\":\"prepare\",\"nodeId\":\"shore\",\"cycle\":2,\"completedCycles\":1,\"light\":6,\"obols\":1,\"hull\":3,\"reprimands\":0,\"supplyIndex\":7,\"souls\":{\"C01-S03\":{\"id\":\"C01-S03\",\"templateId\":\"S03\",\"cohort\":1,\"anger\":0},\"C01-S04\":{\"id\":\"C01-S04\",\"templateId\":\"S04\",\"cohort\":1,\"anger\":0},\"C01-S05\":{\"id\":\"C01-S05\",\"templateId\":\"S05\",\"cohort\":1,\"anger\":1},\"C01-S06\":{\"id\":\"C01-S06\",\"templateId\":\"S06\",\"cohort\":1,\"anger\":0},\"C01-S07\":{\"id\":\"C01-S07\",\"templateId\":\"S07\",\"cohort\":1,\"anger\":0}},\"shore\":[\"C01-S04\",\"C01-S05\",\"C01-S03\",\"C01-S06\",\"C01-S07\"],\"passengers\":[],\"wraiths\":[],\"memories\":{\"M-C01-S01\":{\"id\":\"M-C01-S01\",\"templateId\":\"R05\",\"sourceSoulId\":\"C01-S01\",\"sourceTemplateId\":\"S01\",\"deliveredTo\":\"elysium\",\"cycle\":1},\"M-C01-S02\":{\"id\":\"M-C01-S02\",\"templateId\":\"R05\",\"sourceSoulId\":\"C01-S02\",\"sourceTemplateId\":\"S02\",\"deliveredTo\":\"elysium\",\"cycle\":1}},\"hand\":[\"M-C01-S02\",\"M-C01-S01\"],\"draw\":[],\"discard\":[],\"visited\":[],\"calmUsed\":false,\"memoryPlayed\":false,\"playedMemory\":null,\"protection\":{},\"waitingSnapshot\":[],\"separationMarks\":[],\"reconciledCohorts\":[],\"eventsTriggered\":[\"E01\"],\"eventQueue\":[],\"arrival\":null,\"stats\":{\"crossings\":3,\"delivered\":[{\"soulId\":\"C01-S01\",\"templateId\":\"S01\",\"destinationId\":\"elysium\",\"cycle\":1,\"wishMatched\":true},{\"soulId\":\"C01-S02\",\"templateId\":\"S02\",\"destinationId\":\"elysium\",\"cycle\":1,\"wishMatched\":true}],\"memoriesEarned\":2,\"wraithsFormed\":0,\"wraithsReleased\":0,\"missedQuotas\":0,\"quotasPaid\":0,\"brokenPromises\":0},\"log\":[{\"seq\":1,\"type\":\"SETUP\",\"cycle\":1,\"nodeId\":\"shore\",\"seed\":3830465609,\"rulesVersion\":\"0.3\"},{\"seq\":2,\"type\":\"SHORE_REFILLED\",\"cycle\":1,\"nodeId\":\"shore\",\"soulIds\":[\"C01-S01\",\"C01-S02\",\"C01-S03\",\"C01-S04\",\"C01-S05\"]},{\"seq\":3,\"type\":\"MEMORIES_DRAWN\",\"cycle\":1,\"nodeId\":\"shore\",\"memoryIds\":[],\"reshuffled\":false,\"handSize\":0},{\"seq\":4,\"type\":\"BOARDED\",\"cycle\":1,\"nodeId\":\"shore\",\"soulId\":\"C01-S01\"},{\"seq\":5,\"type\":\"BOARDED\",\"cycle\":1,\"nodeId\":\"shore\",\"soulId\":\"C01-S02\"},{\"seq\":6,\"type\":\"BOARDED\",\"cycle\":1,\"nodeId\":\"shore\",\"soulId\":\"C01-S03\"},{\"seq\":7,\"type\":\"UNBOARDED\",\"cycle\":1,\"nodeId\":\"shore\",\"soulId\":\"C01-S03\"},{\"seq\":8,\"type\":\"CALMED\",\"cycle\":1,\"nodeId\":\"shore\",\"soulId\":\"C01-S03\",\"obolsSpent\":1},{\"seq\":9,\"type\":\"DEPART\",\"cycle\":1,\"nodeId\":\"shore\",\"from\":\"shore\",\"to\":\"elysium\",\"variant\":\"normal\",\"fogDamage\":0,\"hullDamage\":0,\"breakdown\":{\"baseFog\":0,\"cycleModifier\":0,\"wraithPressure\":0,\"conflictPressure\":0,\"passengerProtection\":0,\"memoryProtection\":0},\"passengers\":[\"C01-S01\",\"C01-S02\"],\"separationMarks\":[]},{\"seq\":10,\"type\":\"CROSSING_COMPLETED\",\"cycle\":1,\"nodeId\":\"shore\",\"from\":\"shore\",\"to\":\"elysium\",\"variant\":\"normal\",\"fogPaid\":0,\"hullLost\":0,\"light\":2,\"hull\":3},{\"seq\":11,\"type\":\"ARRIVED\",\"cycle\":1,\"nodeId\":\"elysium\",\"passengers\":[\"C01-S01\",\"C01-S02\"]},{\"seq\":12,\"type\":\"SOUL_DELIVERED\",\"cycle\":1,\"nodeId\":\"elysium\",\"soulId\":\"C01-S01\",\"templateId\":\"S01\",\"cohort\":1,\"destinationId\":\"elysium\",\"reward\":{\"kind\":\"flame\",\"amount\":1},\"wishMatched\":true,\"wishBonus\":1,\"obolsGained\":0,\"lightGained\":2,\"lightLost\":0,\"memoryId\":\"M-C01-S01\",\"memoryTemplateId\":\"R05\",\"jointDelivery\":true},{\"seq\":13,\"type\":\"SOUL_DELIVERED\",\"cycle\":1,\"nodeId\":\"elysium\",\"soulId\":\"C01-S02\",\"templateId\":\"S02\",\"cohort\":1,\"destinationId\":\"elysium\",\"reward\":{\"kind\":\"flame\",\"amount\":1},\"wishMatched\":true,\"wishBonus\":1,\"obolsGained\":0,\"lightGained\":2,\"lightLost\":0,\"memoryId\":\"M-C01-S02\",\"memoryTemplateId\":\"R05\",\"jointDelivery\":true},{\"seq\":14,\"type\":\"DELIVERY_CONFIRMED\",\"cycle\":1,\"nodeId\":\"elysium\",\"soulIds\":[\"C01-S01\",\"C01-S02\"],\"count\":2},{\"seq\":15,\"type\":\"EVENT_TRIGGERED\",\"cycle\":1,\"nodeId\":\"elysium\",\"eventId\":\"E01\",\"choice\":false,\"predicate\":{\"kind\":\"linkedPairDeliveredTogether\"}},{\"seq\":16,\"type\":\"EVENT_RESOLVED\",\"cycle\":1,\"nodeId\":\"elysium\",\"eventId\":\"E01\",\"automatic\":true,\"accepted\":true,\"effect\":\"gainLight\",\"result\":{\"gained\":0,\"lost\":1}},{\"seq\":17,\"type\":\"MEMORIES_DRAWN\",\"cycle\":1,\"nodeId\":\"elysium\",\"memoryIds\":[\"M-C01-S01\",\"M-C01-S02\"],\"reshuffled\":false,\"handSize\":2},{\"seq\":18,\"type\":\"MEMORY_PLAYED\",\"cycle\":1,\"nodeId\":\"elysium\",\"memoryId\":\"M-C01-S01\",\"templateId\":\"R05\",\"sourceSoulId\":\"C01-S01\",\"targetSoulId\":\"C01-S04\",\"marked\":true},{\"seq\":19,\"type\":\"DEPART\",\"cycle\":1,\"nodeId\":\"elysium\",\"from\":\"elysium\",\"to\":\"haven\",\"variant\":\"normal\",\"fogDamage\":0,\"hullDamage\":0,\"breakdown\":{\"baseFog\":0,\"cycleModifier\":0,\"wraithPressure\":0,\"conflictPressure\":0,\"passengerProtection\":0,\"memoryProtection\":2},\"passengers\":[],\"separationMarks\":[]},{\"seq\":20,\"type\":\"CROSSING_COMPLETED\",\"cycle\":1,\"nodeId\":\"elysium\",\"from\":\"elysium\",\"to\":\"haven\",\"variant\":\"normal\",\"fogPaid\":0,\"hullLost\":0,\"light\":6,\"hull\":3},{\"seq\":21,\"type\":\"ARRIVED\",\"cycle\":1,\"nodeId\":\"haven\",\"passengers\":[]},{\"seq\":22,\"type\":\"HAVEN_RECOVERY\",\"cycle\":1,\"nodeId\":\"haven\",\"lightGained\":0,\"lightLost\":1},{\"seq\":23,\"type\":\"MEMORIES_DRAWN\",\"cycle\":1,\"nodeId\":\"haven\",\"memoryIds\":[\"M-C01-S01\"],\"reshuffled\":true,\"handSize\":2},{\"seq\":24,\"type\":\"DEPART\",\"cycle\":1,\"nodeId\":\"haven\",\"from\":\"haven\",\"to\":\"shore\",\"variant\":\"normal\",\"fogDamage\":0,\"hullDamage\":0,\"breakdown\":{\"baseFog\":0,\"cycleModifier\":0,\"wraithPressure\":0,\"conflictPressure\":0,\"passengerProtection\":0,\"memoryProtection\":0},\"passengers\":[],\"separationMarks\":[]},{\"seq\":25,\"type\":\"CROSSING_COMPLETED\",\"cycle\":1,\"nodeId\":\"haven\",\"from\":\"haven\",\"to\":\"shore\",\"variant\":\"normal\",\"fogPaid\":0,\"hullLost\":0,\"light\":6,\"hull\":3},{\"seq\":26,\"type\":\"RETURNED\",\"cycle\":1,\"nodeId\":\"shore\",\"completedCycles\":1},{\"seq\":27,\"type\":\"ANGER_RESOLVED\",\"cycle\":1,\"nodeId\":\"shore\",\"souls\":[{\"soulId\":\"C01-S04\",\"normal\":0,\"separation\":0,\"protectedBy\":\"memory\",\"anger\":0},{\"soulId\":\"C01-S05\",\"normal\":1,\"separation\":0,\"protectedBy\":null,\"anger\":1},{\"soulId\":\"C01-S03\",\"normal\":0,\"separation\":0,\"protectedBy\":\"calm\",\"anger\":0}],\"wraithsFormed\":[],\"reprimands\":0},{\"seq\":28,\"type\":\"CYCLE_COMPLETED\",\"cycle\":2,\"nodeId\":\"shore\",\"completedCycles\":1,\"lightGained\":0,\"lightLost\":1,\"nextCycle\":2},{\"seq\":29,\"type\":\"SHORE_REFILLED\",\"cycle\":2,\"nodeId\":\"shore\",\"soulIds\":[\"C01-S06\",\"C01-S07\"]},{\"seq\":30,\"type\":\"MEMORIES_DRAWN\",\"cycle\":2,\"nodeId\":\"shore\",\"memoryIds\":[],\"reshuffled\":false,\"handSize\":2}],\"actionLog\":[{\"type\":\"BOARD\",\"soulId\":\"C01-S01\"},{\"type\":\"BOARD\",\"soulId\":\"C01-S02\"},{\"type\":\"BOARD\",\"soulId\":\"C01-S03\"},{\"type\":\"UNBOARD\",\"soulId\":\"C01-S03\"},{\"type\":\"CALM\",\"soulId\":\"C01-S03\"},{\"type\":\"DEPART\",\"to\":\"elysium\",\"variant\":\"normal\"},{\"type\":\"DELIVER\",\"soulIds\":[\"C01-S01\",\"C01-S02\"]},{\"type\":\"PLAY_MEMORY\",\"memoryId\":\"M-C01-S01\",\"targetSoulId\":\"C01-S04\"},{\"type\":\"DEPART\",\"to\":\"haven\",\"variant\":\"normal\"},{\"type\":\"DEPART\",\"to\":\"shore\",\"variant\":\"normal\"}],\"seq\":30,\"ended\":null}}",
+  "view": {
+    "schemaVersion": 1,
+    "rulesVersion": "0.3",
+    "phase": "prepare",
+    "nodeId": "shore",
+    "cycle": 2,
+    "completedCycles": 1,
+    "resources": {
+      "light": 6,
+      "lightMax": 6,
+      "obols": 1,
+      "hull": 3,
+      "hullMax": 3,
+      "reprimands": 0,
+      "reprimandsMax": 3
+    },
+    "capacity": {
+      "used": 0,
+      "max": 4
+    },
+    "nextQuota": {
+      "dueAfterCycle": 3,
+      "amount": 2,
+      "cyclesUntilDue": 2
+    },
+    "favorableDestinationId": null,
+    "shore": [
+      {
+        "id": "C01-S04",
+        "templateId": "S04",
+        "cohort": 1,
+        "role": "Red Soldier",
+        "seats": 2,
+        "reward": {
+          "kind": "coin",
+          "amount": 1
+        },
+        "preferredDestinationId": "tartarus",
+        "anger": 0,
+        "partnerId": null,
+        "conflictPartnerId": "C01-S06",
+        "normalAngerProtected": false,
+        "protectedBy": null,
+        "separationMarked": false,
+        "separationRisk": false,
+        "canBoard": true,
+        "canUnboard": false,
+        "canCalm": true,
+        "disabledReasons": []
+      },
+      {
+        "id": "C01-S05",
+        "templateId": "S05",
+        "cohort": 1,
+        "role": "Poet",
+        "seats": 1,
+        "reward": {
+          "kind": "flame",
+          "amount": 1
+        },
+        "preferredDestinationId": "asphodel",
+        "anger": 1,
+        "partnerId": null,
+        "conflictPartnerId": null,
+        "normalAngerProtected": false,
+        "protectedBy": null,
+        "separationMarked": false,
+        "separationRisk": false,
+        "canBoard": true,
+        "canUnboard": false,
+        "canCalm": true,
+        "disabledReasons": []
+      },
+      {
+        "id": "C01-S03",
+        "templateId": "S03",
+        "cohort": 1,
+        "role": "Merchant",
+        "seats": 1,
+        "reward": {
+          "kind": "coin",
+          "amount": 1
+        },
+        "preferredDestinationId": "tartarus",
+        "anger": 0,
+        "partnerId": null,
+        "conflictPartnerId": null,
+        "normalAngerProtected": false,
+        "protectedBy": null,
+        "separationMarked": false,
+        "separationRisk": false,
+        "canBoard": true,
+        "canUnboard": false,
+        "canCalm": true,
+        "disabledReasons": []
+      },
+      {
+        "id": "C01-S06",
+        "templateId": "S06",
+        "cohort": 1,
+        "role": "Blue Soldier",
+        "seats": 1,
+        "reward": {
+          "kind": "coin",
+          "amount": 1
+        },
+        "preferredDestinationId": "asphodel",
+        "anger": 0,
+        "partnerId": null,
+        "conflictPartnerId": "C01-S04",
+        "normalAngerProtected": false,
+        "protectedBy": null,
+        "separationMarked": false,
+        "separationRisk": false,
+        "canBoard": true,
+        "canUnboard": false,
+        "canCalm": true,
+        "disabledReasons": []
+      },
+      {
+        "id": "C01-S07",
+        "templateId": "S07",
+        "cohort": 1,
+        "role": "Cook",
+        "seats": 1,
+        "reward": {
+          "kind": "flame",
+          "amount": 1
+        },
+        "preferredDestinationId": "asphodel",
+        "anger": 0,
+        "partnerId": null,
+        "conflictPartnerId": null,
+        "normalAngerProtected": false,
+        "protectedBy": null,
+        "separationMarked": false,
+        "separationRisk": false,
+        "canBoard": true,
+        "canUnboard": false,
+        "canCalm": true,
+        "disabledReasons": []
+      }
+    ],
+    "passengers": [],
+    "wraiths": [],
+    "hand": [
+      {
+        "id": "M-C01-S02",
+        "templateId": "R05",
+        "sourceSoulId": "C01-S02",
+        "deliveredTo": "elysium",
+        "takesTarget": true,
+        "canPlay": true,
+        "validTargetIds": [
+          "C01-S04",
+          "C01-S05",
+          "C01-S03",
+          "C01-S06",
+          "C01-S07"
+        ],
+        "disabledReason": null
+      },
+      {
+        "id": "M-C01-S01",
+        "templateId": "R05",
+        "sourceSoulId": "C01-S01",
+        "deliveredTo": "elysium",
+        "takesTarget": true,
+        "canPlay": true,
+        "validTargetIds": [
+          "C01-S04",
+          "C01-S05",
+          "C01-S03",
+          "C01-S06",
+          "C01-S07"
+        ],
+        "disabledReason": null
+      }
+    ],
+    "memoryCounts": {
+      "draw": 0,
+      "discard": 0,
+      "hand": 2,
+      "total": 2
+    },
+    "routes": [
+      {
+        "to": "elysium",
+        "variant": "normal",
+        "isReturn": false,
+        "fogDamage": 0,
+        "hullDamage": 0,
+        "lightAfter": 6,
+        "hullAfter": 3,
+        "lethal": false,
+        "failureCause": null,
+        "legal": true,
+        "disabledReason": null,
+        "breakdown": {
+          "baseFog": 0,
+          "cycleModifier": 0,
+          "wraithPressure": 0,
+          "conflictPressure": 0,
+          "passengerProtection": 0,
+          "memoryProtection": 0,
+          "rawFog": 0,
+          "favorableApplied": false
+        }
+      },
+      {
+        "to": "asphodel",
+        "variant": "normal",
+        "isReturn": false,
+        "fogDamage": 1,
+        "hullDamage": 0,
+        "lightAfter": 5,
+        "hullAfter": 3,
+        "lethal": false,
+        "failureCause": null,
+        "legal": true,
+        "disabledReason": null,
+        "breakdown": {
+          "baseFog": 1,
+          "cycleModifier": 0,
+          "wraithPressure": 0,
+          "conflictPressure": 0,
+          "passengerProtection": 0,
+          "memoryProtection": 0,
+          "rawFog": 1,
+          "favorableApplied": false
+        }
+      },
+      {
+        "to": "tartarus",
+        "variant": "normal",
+        "isReturn": false,
+        "fogDamage": 2,
+        "hullDamage": 0,
+        "lightAfter": 4,
+        "hullAfter": 3,
+        "lethal": false,
+        "failureCause": null,
+        "legal": true,
+        "disabledReason": null,
+        "breakdown": {
+          "baseFog": 2,
+          "cycleModifier": 0,
+          "wraithPressure": 0,
+          "conflictPressure": 0,
+          "passengerProtection": 0,
+          "memoryProtection": 0,
+          "rawFog": 2,
+          "favorableApplied": false
+        }
+      }
+    ],
+    "pendingEvent": null,
+    "discoveredEventIds": [
+      "E01"
+    ],
+    "returnForecast": {
+      "waiting": [
+        {
+          "soulId": "C01-S04",
+          "currentAnger": 0,
+          "normalAnger": 1,
+          "separationAnger": 0,
+          "projectedAnger": 1,
+          "willTransform": false
+        },
+        {
+          "soulId": "C01-S05",
+          "currentAnger": 1,
+          "normalAnger": 1,
+          "separationAnger": 0,
+          "projectedAnger": 2,
+          "willTransform": false
+        },
+        {
+          "soulId": "C01-S03",
+          "currentAnger": 0,
+          "normalAnger": 1,
+          "separationAnger": 0,
+          "projectedAnger": 1,
+          "willTransform": false
+        },
+        {
+          "soulId": "C01-S06",
+          "currentAnger": 0,
+          "normalAnger": 1,
+          "separationAnger": 0,
+          "projectedAnger": 1,
+          "willTransform": false
+        },
+        {
+          "soulId": "C01-S07",
+          "currentAnger": 0,
+          "normalAnger": 1,
+          "separationAnger": 0,
+          "projectedAnger": 1,
+          "willTransform": false
+        }
+      ],
+      "transformations": 0,
+      "brokenPromisesIfReturnNow": 0,
+      "reprimandsAfterReturn": 0,
+      "dismissalIfReturnNow": false,
+      "warnings": [],
+      "quotaDueAtReturn": false,
+      "quotaShortfallAtReturn": false,
+      "assumesNoFurtherDeliveries": true
+    },
+    "permissions": {
+      "canDeliver": false,
+      "canRepair": false,
+      "repairDisabledReason": "The hull is already at full integrity.",
+      "canCalm": true,
+      "calmDisabledReason": null,
+      "canRelease": false,
+      "canDepart": true,
+      "canPlayMemory": true,
+      "canResolveEvent": false
+    },
+    "visited": [],
+    "calmUsed": false,
+    "memoryPlayedThisCrossing": false,
+    "playedMemory": null,
+    "arrival": null,
+    "history": [
+      {
+        "seq": 1,
+        "type": "SETUP",
+        "cycle": 1,
+        "nodeId": "shore",
+        "seed": 3830465609,
+        "rulesVersion": "0.3"
+      },
+      {
+        "seq": 2,
+        "type": "SHORE_REFILLED",
+        "cycle": 1,
+        "nodeId": "shore",
+        "soulIds": [
+          "C01-S01",
+          "C01-S02",
+          "C01-S03",
+          "C01-S04",
+          "C01-S05"
+        ]
+      },
+      {
+        "seq": 3,
+        "type": "MEMORIES_DRAWN",
+        "cycle": 1,
+        "nodeId": "shore",
+        "memoryIds": [],
+        "reshuffled": false,
+        "handSize": 0
+      },
+      {
+        "seq": 4,
+        "type": "BOARDED",
+        "cycle": 1,
+        "nodeId": "shore",
+        "soulId": "C01-S01"
+      },
+      {
+        "seq": 5,
+        "type": "BOARDED",
+        "cycle": 1,
+        "nodeId": "shore",
+        "soulId": "C01-S02"
+      },
+      {
+        "seq": 6,
+        "type": "BOARDED",
+        "cycle": 1,
+        "nodeId": "shore",
+        "soulId": "C01-S03"
+      },
+      {
+        "seq": 7,
+        "type": "UNBOARDED",
+        "cycle": 1,
+        "nodeId": "shore",
+        "soulId": "C01-S03"
+      },
+      {
+        "seq": 8,
+        "type": "CALMED",
+        "cycle": 1,
+        "nodeId": "shore",
+        "soulId": "C01-S03",
+        "obolsSpent": 1
+      },
+      {
+        "seq": 9,
+        "type": "DEPART",
+        "cycle": 1,
+        "nodeId": "shore",
+        "from": "shore",
+        "to": "elysium",
+        "variant": "normal",
+        "fogDamage": 0,
+        "hullDamage": 0,
+        "breakdown": {
+          "baseFog": 0,
+          "cycleModifier": 0,
+          "wraithPressure": 0,
+          "conflictPressure": 0,
+          "passengerProtection": 0,
+          "memoryProtection": 0
+        },
+        "passengers": [
+          "C01-S01",
+          "C01-S02"
+        ],
+        "separationMarks": []
+      },
+      {
+        "seq": 10,
+        "type": "CROSSING_COMPLETED",
+        "cycle": 1,
+        "nodeId": "shore",
+        "from": "shore",
+        "to": "elysium",
+        "variant": "normal",
+        "fogPaid": 0,
+        "hullLost": 0,
+        "light": 2,
+        "hull": 3
+      },
+      {
+        "seq": 11,
+        "type": "ARRIVED",
+        "cycle": 1,
+        "nodeId": "elysium",
+        "passengers": [
+          "C01-S01",
+          "C01-S02"
+        ]
+      },
+      {
+        "seq": 12,
+        "type": "SOUL_DELIVERED",
+        "cycle": 1,
+        "nodeId": "elysium",
+        "soulId": "C01-S01",
+        "templateId": "S01",
+        "cohort": 1,
+        "destinationId": "elysium",
+        "reward": {
+          "kind": "flame",
+          "amount": 1
+        },
+        "wishMatched": true,
+        "wishBonus": 1,
+        "obolsGained": 0,
+        "lightGained": 2,
+        "lightLost": 0,
+        "memoryId": "M-C01-S01",
+        "memoryTemplateId": "R05",
+        "jointDelivery": true
+      },
+      {
+        "seq": 13,
+        "type": "SOUL_DELIVERED",
+        "cycle": 1,
+        "nodeId": "elysium",
+        "soulId": "C01-S02",
+        "templateId": "S02",
+        "cohort": 1,
+        "destinationId": "elysium",
+        "reward": {
+          "kind": "flame",
+          "amount": 1
+        },
+        "wishMatched": true,
+        "wishBonus": 1,
+        "obolsGained": 0,
+        "lightGained": 2,
+        "lightLost": 0,
+        "memoryId": "M-C01-S02",
+        "memoryTemplateId": "R05",
+        "jointDelivery": true
+      },
+      {
+        "seq": 14,
+        "type": "DELIVERY_CONFIRMED",
+        "cycle": 1,
+        "nodeId": "elysium",
+        "soulIds": [
+          "C01-S01",
+          "C01-S02"
+        ],
+        "count": 2
+      },
+      {
+        "seq": 15,
+        "type": "EVENT_TRIGGERED",
+        "cycle": 1,
+        "nodeId": "elysium",
+        "eventId": "E01",
+        "choice": false,
+        "predicate": {
+          "kind": "linkedPairDeliveredTogether"
+        }
+      },
+      {
+        "seq": 16,
+        "type": "EVENT_RESOLVED",
+        "cycle": 1,
+        "nodeId": "elysium",
+        "eventId": "E01",
+        "automatic": true,
+        "accepted": true,
+        "effect": "gainLight",
+        "result": {
+          "gained": 0,
+          "lost": 1
+        }
+      },
+      {
+        "seq": 17,
+        "type": "MEMORIES_DRAWN",
+        "cycle": 1,
+        "nodeId": "elysium",
+        "memoryIds": [
+          "M-C01-S01",
+          "M-C01-S02"
+        ],
+        "reshuffled": false,
+        "handSize": 2
+      },
+      {
+        "seq": 18,
+        "type": "MEMORY_PLAYED",
+        "cycle": 1,
+        "nodeId": "elysium",
+        "memoryId": "M-C01-S01",
+        "templateId": "R05",
+        "sourceSoulId": "C01-S01",
+        "targetSoulId": "C01-S04",
+        "marked": true
+      },
+      {
+        "seq": 19,
+        "type": "DEPART",
+        "cycle": 1,
+        "nodeId": "elysium",
+        "from": "elysium",
+        "to": "haven",
+        "variant": "normal",
+        "fogDamage": 0,
+        "hullDamage": 0,
+        "breakdown": {
+          "baseFog": 0,
+          "cycleModifier": 0,
+          "wraithPressure": 0,
+          "conflictPressure": 0,
+          "passengerProtection": 0,
+          "memoryProtection": 2
+        },
+        "passengers": [],
+        "separationMarks": []
+      },
+      {
+        "seq": 20,
+        "type": "CROSSING_COMPLETED",
+        "cycle": 1,
+        "nodeId": "elysium",
+        "from": "elysium",
+        "to": "haven",
+        "variant": "normal",
+        "fogPaid": 0,
+        "hullLost": 0,
+        "light": 6,
+        "hull": 3
+      },
+      {
+        "seq": 21,
+        "type": "ARRIVED",
+        "cycle": 1,
+        "nodeId": "haven",
+        "passengers": []
+      },
+      {
+        "seq": 22,
+        "type": "HAVEN_RECOVERY",
+        "cycle": 1,
+        "nodeId": "haven",
+        "lightGained": 0,
+        "lightLost": 1
+      },
+      {
+        "seq": 23,
+        "type": "MEMORIES_DRAWN",
+        "cycle": 1,
+        "nodeId": "haven",
+        "memoryIds": [
+          "M-C01-S01"
+        ],
+        "reshuffled": true,
+        "handSize": 2
+      },
+      {
+        "seq": 24,
+        "type": "DEPART",
+        "cycle": 1,
+        "nodeId": "haven",
+        "from": "haven",
+        "to": "shore",
+        "variant": "normal",
+        "fogDamage": 0,
+        "hullDamage": 0,
+        "breakdown": {
+          "baseFog": 0,
+          "cycleModifier": 0,
+          "wraithPressure": 0,
+          "conflictPressure": 0,
+          "passengerProtection": 0,
+          "memoryProtection": 0
+        },
+        "passengers": [],
+        "separationMarks": []
+      },
+      {
+        "seq": 25,
+        "type": "CROSSING_COMPLETED",
+        "cycle": 1,
+        "nodeId": "haven",
+        "from": "haven",
+        "to": "shore",
+        "variant": "normal",
+        "fogPaid": 0,
+        "hullLost": 0,
+        "light": 6,
+        "hull": 3
+      },
+      {
+        "seq": 26,
+        "type": "RETURNED",
+        "cycle": 1,
+        "nodeId": "shore",
+        "completedCycles": 1
+      },
+      {
+        "seq": 27,
+        "type": "ANGER_RESOLVED",
+        "cycle": 1,
+        "nodeId": "shore",
+        "souls": [
+          {
+            "soulId": "C01-S04",
+            "normal": 0,
+            "separation": 0,
+            "protectedBy": "memory",
+            "anger": 0
+          },
+          {
+            "soulId": "C01-S05",
+            "normal": 1,
+            "separation": 0,
+            "protectedBy": null,
+            "anger": 1
+          },
+          {
+            "soulId": "C01-S03",
+            "normal": 0,
+            "separation": 0,
+            "protectedBy": "calm",
+            "anger": 0
+          }
+        ],
+        "wraithsFormed": [],
+        "reprimands": 0
+      },
+      {
+        "seq": 28,
+        "type": "CYCLE_COMPLETED",
+        "cycle": 2,
+        "nodeId": "shore",
+        "completedCycles": 1,
+        "lightGained": 0,
+        "lightLost": 1,
+        "nextCycle": 2
+      },
+      {
+        "seq": 29,
+        "type": "SHORE_REFILLED",
+        "cycle": 2,
+        "nodeId": "shore",
+        "soulIds": [
+          "C01-S06",
+          "C01-S07"
+        ]
+      },
+      {
+        "seq": 30,
+        "type": "MEMORIES_DRAWN",
+        "cycle": 2,
+        "nodeId": "shore",
+        "memoryIds": [],
+        "reshuffled": false,
+        "handSize": 2
+      }
+    ],
+    "ended": null
+  },
+  "sessionLog": []
+}
