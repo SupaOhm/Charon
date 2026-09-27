@@ -2,6 +2,14 @@
 
 Updated September 27, 2026 after repository organization. Current rules and game/art paths are unchanged; handoffs live at root v0.3_handoffs/, and decision history lives in notes/Decisions_and_Team_Plan.md.
 
+## Latest checkpoint: workshop art handoff, September 27, 2026
+
+The user requested a prompt for the remaining local workshop materials, then asked to place it with the numbered v0.3 handoffs. v0.3_handoffs/05_ChatGPT_Workshop_Art.md defines that production task: printable soul and memory cards, route board and boat mat, counters and trackers, references, event cards, observation sheets, editable sources, PDFs and a checked ZIP. Proposed output location: outputs/The_Ferryman_Workshop_Kit_v0.3/. Only the handoff prompt was created; the v0.3 physical workshop kit has not been generated.
+
+Art revision 2 already exists under outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/, with its current manifest at assets/assets.js and integration notes at handoff/art.md. It includes revised environments and wraith, resource illustrations, soul portraits, icons and blank frames. VALIDATION_R2.json records 62 loaded catalogue assets with no failed loads in the desktop art preview. This is art-gallery evidence, not playable-game or human workshop validation. Team art approval and physical print/rehearsal checks remain pending. Older statements below that no assets were generated describe the earlier handoff-preparation task and are stale for current art status. Existing v0.2 paper materials must not supply v0.3 rules.
+
+The workshop prompt defaults to one station, English, A4 and single-sided assembly, with two initial soul cohorts plus repeatable continuation sheets. These are proposed production defaults, not confirmed attendance, print specifications or new game limits. Read the current v0.3 decided rules before executing the prompt. No gameplay rules were changed, and no files were pushed or published.
+
 ## Immediate context
 
 The user requested that the complete game project and relevant generated files be gathered in E:\Charon for sharing with friends, with agent context included. At transfer, the target was an existing empty Git repository on branch main. The user has since committed the imported files and added CLAUDE.md; inspect current Git history rather than assuming it is still empty. Preserve its .git directory. Do not push or publish.

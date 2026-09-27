@@ -17,6 +17,10 @@ Use two ChatGPT Astra conversations for images and content, and two Claude conve
 
 D is the integration owner, not a fifth worker. The human coordinator distributes this packet, resolves rule questions and collects deliverables. No worker silently changes approved mechanics.
 
+## Workshop follow-up
+
+[05_ChatGPT_Workshop_Art.md](05_ChatGPT_Workshop_Art.md) covers the remaining physical v0.3 workshop kit: printable cards, board and mats, counters and trackers, references, event cards and observation sheets. It reuses the delivered revision 2 artwork and defines a separate output folder, print checks and packaging requirements. This is a follow-up production prompt, not an additional worker in the four-worker browser-game allocation. The prompt's existence does not mean the workshop kit has been generated.
+
 ## What to give each conversation
 
 Paste that worker's prompt as the task. Attach or grant access to:

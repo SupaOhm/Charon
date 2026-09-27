@@ -1,0 +1,235 @@
+{
+  "version": "0.3",
+  "status": "prototype, not final team-approved art",
+  "createdDateLocal": "2026-09-27",
+  "timeZone": "Asia/Bangkok",
+  "tool": "built-in image_gen",
+  "cliUsed": false,
+  "generatedImageCount": 20,
+  "reusedImageFiles": [],
+  "referencePolicy": "Existing v0.2 paintings were visually inspected and supplied only as references. Every runtime PNG is newly generated. Existing files were preserved.",
+  "artChoices": "Apparent ages, clothing, props and paired textile motifs are provisional illustration choices, not canonical biographies or mechanics.",
+  "generated": [
+    {
+      "key": "apprentice",
+      "status": "READY",
+      "file": "assets/art/apprentice.png",
+      "originalToolOutput": "exec-36952c65-e027-49f6-884c-273f5b35c5b8.png",
+      "prompt": "Use case: stylized-concept. Create ONE finished game character portrait asset, portrait 1024x1536 composition. New prototype illustration for The Ferryman: Apprentice Charon. The supplied image is a style reference only for its painted/engraved texture, cool river mist and amber lantern, NOT the old bearded man's identity. Subject: a young adult human apprentice guide, medium olive skin, short dark curly hair partly visible under a plain deep teal hooded cloak, ochre neck wrap, thoughtful sympathetic face, no beard. Three-quarter length centered standing pose. One naturally formed visible hand gently holds the top ring of a small bronze lantern at waist level; the other hand rests loosely beneath the cloak. Lantern has a rounded bronze cap and rectangular glass body, one clear warm amber flame. Plain linen tunic, no armor. Atmospheric painterly illustration, subtle etched grain, dignified believable proportions, softly modelled expressive face, readable broad silhouette. Intentional opaque dark charcoal-teal mist background with gentle diffuse circular light, no scenery or frame. Keep complete head, hood, lantern and visible hand well inside the image, generous 12 percent edge margin. Cool diffuse light and amber lantern contrast. No words, letters, symbols, logos, border, UI, coins, counters, skulls, crown, weapons or moral judgment. This is a new image, not a screenshot or collage.",
+      "references": [
+        "outputs/The_Ferryman_Paper_Mockup_Art/Artwork/01_Charon_Cover.png"
+      ]
+    },
+    {
+      "key": "shore",
+      "status": "READY",
+      "file": "assets/art/shore.png",
+      "originalToolOutput": "exec-cb786498-2943-4c29-9660-a038ffadc7bb.png",
+      "prompt": "Use case: stylized-concept. Generate one wide landscape environment illustration for the starting shore in The Ferryman v0.3, 1536x1024. Input 1 is the newly established apprentice portrait: use its cool teal mist, painterly engraved grain, amber lighting and bronze round-capped rectangular lantern design as the style anchor. Input 2 is the prior project's river painting, environmental reference only. No human character is needed in this scene. A humble ancient Greek-inspired embarkation shore at blue dusk: weathered stone steps and reeds in the left outer third, a small dark wooden open ferry moored near those steps, a simple lantern on a dock post with one warm amber flame. River and diffuse fog occupy the center 50 percent, spacious, quiet low contrast, deliberately clear enough for separate interface cards. A few cypress silhouettes and distant ruined columns at the outer right edge. The ferry has a low dark plank hull, gently upcurved prow and modest benches, no sail or gilded ornaments. Atmospheric painterly illustration with subtle etched texture, restrained detail, melancholy and humane rather than horror. Wide safe crop, no vital object on canvas edges. Main river horizon around upper third. Keep amber accents sparse. No text, logo, UI, arrows, icons, numbers, corpse, skull, throne or judgment imagery. Do not copy the old ferryman.",
+      "references": [
+        "assets/art/apprentice.png",
+        "outputs/The_Ferryman_Paper_Mockup_Art/Artwork/01_Charon_Cover.png"
+      ]
+    },
+    {
+      "key": "boat",
+      "status": "READY",
+      "file": "assets/art/boat.png",
+      "originalToolOutput": "exec-c8fc46e7-9a7a-42b0-9df5-5773f5fd2978.png",
+      "prompt": "Use case: stylized-concept. One standalone ferry illustration asset, landscape 1536x1024. Supplied images establish the exact visual family: dark wooden boat from the shore image and bronze round-capped rectangular lantern from the apprentice image. Paint that same modest ancient open river ferry, empty, three-quarter side view, fully visible and centered on quiet dark teal water against an opaque low-detail charcoal mist background. Long low plank hull, gently upcurved prow, ordinary transverse wood benches, one plain oar laid inside, simple mooring rope. One small bronze lantern with one clear amber flame suspended at the prow. Entire prow, stern and lantern have generous 12 percent edge clearance, no cropped ends. Broad readable silhouette, atmospheric painterly treatment with subtle engraved grain, cool fog and warm amber accent, not a diagram. No person, sail, skull ornament, number, capacity symbol, label, text, UI, logo, upgrades or frame. Opaque background is intentional. This is one game asset, not a collage.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/shore.png",
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+      ]
+    },
+    {
+      "key": "elysium",
+      "status": "READY",
+      "file": "assets/art/elysium.png",
+      "originalToolOutput": "exec-7dc27f04-fe01-4720-840e-e70e0a063897.png",
+      "prompt": "Use case: stylized-concept. One wide landscape game environment, 1536x1024. The first supplied image is this project's new starting-shore style anchor; second is the legacy Elysium environmental reference. Create an unoccupied Elysium river landing with pale stone steps at left, flowering grasses and olive branches around the outer edges, cypress trees and a modest classical colonnade on the far right bank, muted dawn gold filtering into cool teal river mist. No ferryman, no boat, no people. Calm open river and low-contrast fog fill the central half and lower center so interface cards can be placed separately. Landmarks remain legible in a wide 16:9 crop; no essential tiny objects near edges. Atmospheric painted illustration with delicate engraved grain, charcoal shadows and aged pale gold highlights matching the new shore. Welcoming and dignified, no angels, halos, moral rankings or Christian heaven symbols. No brilliant large sun disc or bright focal object under the central UI. No words, text, logos, labels, icons, arrows or interface. One finished environment, not concept sheet.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/shore.png",
+        "outputs/The_Ferryman_Paper_Mockup_Art/Artwork/02_Elysium.png"
+      ]
+    },
+    {
+      "key": "asphodel",
+      "status": "READY",
+      "file": "assets/art/asphodel.png",
+      "originalToolOutput": "exec-d4966a31-1cb1-453e-abe1-ee7a23e6862a.png",
+      "prompt": "Use case: stylized-concept. One wide landscape game environment, 1536x1024. Use image 1, the new starting shore, as the texture and palette anchor; use image 2, legacy Asphodel, only for meadow and river motifs. Paint Asphodel as a broad quiet silver-teal misty plain at dusk, pale asphodel flowers in the lower outer corners, a distant winding river, sparse cypresses, a few weathered ancient columns far to the right, a modest empty stone landing at the left outer third. No people and no boat. Open dark cool water and softly layered low contrast fog in the central 50 percent for separately rendered interface cards. Distinguish it from Elysium with overcast silver light and low rolling terrain, not glowing gold or grand architecture. Atmospheric painterly illustration with restrained engraved grain, readable broad shapes, melancholy but not threatening or morally inferior. Keep landmarks safe in a wide 16:9 crop. A tiny warm bronze dock lantern may sit at the outer left, matching the starting shore. No text, labels, numbers, icons, controls, logos, frames or collage.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/shore.png",
+        "outputs/The_Ferryman_Paper_Mockup_Art/Artwork/03_Asphodel.png"
+      ]
+    },
+    {
+      "key": "tartarus",
+      "status": "READY",
+      "file": "assets/art/tartarus.png",
+      "originalToolOutput": "exec-3fa2dd8a-920d-4644-8fec-381db1787812.png",
+      "prompt": "Use case: stylized-concept. One wide landscape environment asset for The Ferryman, 1536x1024. Input 1 is the newly established starting-shore style; input 2 the legacy Tartarus landscape motif reference. Paint a solemn Tartarus river landing in a cavernous basalt gorge. Tall broken stone gateway and low warm copper braziers on the outer right bank; dark stacked rock columns and a modest landing on the outer left. A distant aqueduct high across the background. Quiet teal-black water and cool diffuse mist fill the entire central half, low contrast for separate interface elements. Only restrained ember warmth near edge architecture, not a lava river or hellfire spectacle. All destinations welcome any passenger, so no judgment, punishment, torture, chained souls, demons or moral labeling. No people, no boat. Atmospheric painterly illustration with subtle engraved grain matching the starting shore, readable silhouette architecture, visual distinction from silver flower meadow and golden olive terraces. Safe wide 16:9 crop, no essential content near canvas edges. No text, numbers, symbols, UI, logos, arrows, frames or collage.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/shore.png",
+        "outputs/The_Ferryman_Paper_Mockup_Art/Artwork/04_Tartarus.png"
+      ]
+    },
+    {
+      "key": "haven",
+      "status": "READY",
+      "file": "assets/art/haven.png",
+      "originalToolOutput": "exec-6a20dfc7-5fe5-487e-965c-8e3f4859a09d.png",
+      "prompt": "Use case: stylized-concept. One wide 1536x1024 landscape environment game asset: the river haven in The Ferryman. Use the supplied new starting shore and apprentice as exact texture, lantern and palette references. A modest sheltered maintenance landing beneath a weathered stone arch on the left outer third of a quiet river cove. A simple covered wooden workbench, coiled rope and stacked unmarked spare planks, one bronze round-capped rectangular lantern casting warm amber light at the landing. Reed-covered rocks at the outer right, distant cypresses, soft blue-green fog. No shop sign, no treasure, no magical portal. Center and lower middle contain broad quiet dark teal water with low contrast mist for UI; restrained detail stays at the banks. No boat and no people so the UI can place its own state. Atmospheric painted illustration with engraved grain and dignified ancient Greek-inspired materials, same family as the references. The haven feels modest, sheltered and practical, not like a new destination palace. Wide safe crop. No text, labels, counters, logos, UI, icons, border or collage.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/shore.png",
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+      ]
+    },
+    {
+      "key": "wraith",
+      "status": "READY",
+      "file": "assets/art/wraith.png",
+      "originalToolOutput": "exec-3ffdc1bd-873e-44fd-a55a-2259afc0f16a.png",
+      "prompt": "Use case: precise-object-edit. Edit this wraith portrait, keeping the exact portrait dimensions, dark teal mist background, painterly etched texture, restrained sorrowful mood and generous subject margins. Change only the character identity and clothing so it cannot be confused with the young apprentice. Replace the young dark-haired hooded face with an older gaunt human face with short wispy white hair and no hood. Replace the dark teal cloak and ochre neck fabric with a single pale ivory-gray worn shroud, simple wrapped shoulders, frayed edges. Keep two naturally formed hands close to the chest. Increase the spectral mist dissolving the lower body and shoulders while retaining a strong narrow upright silhouette. Clearly a sorrowful river spirit, not a solid living guide. No red eyes, skull, claws, wounds or horror caricature. No lantern, weapon, symbols, text, logo, border or UI. Opaque painted background remains, do not simulate transparency with a checkerboard.",
+      "references": [
+        "rejected:wraith-initial"
+      ],
+      "revisionReason": "Initial wraith resembled the apprentice; revised to an older white-haired spirit in a pale shroud."
+    },
+    {
+      "key": "S01",
+      "status": "READY",
+      "file": "assets/art/S01.png",
+      "originalToolOutput": "exec-df322b45-7291-426c-8fef-98d6f15452a3.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S01 Mother, a middle-aged woman with dark wavy hair tied back, a strong gentle face and an attentive patient expression. Plain pale linen gown with a muted sea-green woven shawl edged by a narrow ivory stripe. One hand loosely holds the shawl at her chest; other hand outside the frame. She looks slightly toward the right as if attentive to someone nearby, but no second person is visible. The shawl's sea-green and ivory stripe will be shared with the Child portrait. No baby, bundle or extra figure.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+      ]
+    },
+    {
+      "key": "S02",
+      "status": "READY",
+      "file": "assets/art/S02.png",
+      "originalToolOutput": "exec-eed15cf1-3d79-4c8d-af09-090294e9a5ee.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S02 Child, a small child about eight years old with short dark wavy hair and a gentle thoughtful expression, wearing a modest plain linen tunic and a sea-green shoulder wrap with a narrow ivory edge stripe. This is the Mother's child: the reference Mother is for family resemblance and matching cloth, but depict only the child, clearly younger and smaller proportions, not an adult face. Look slightly to the left to complement the Mother's rightward gaze. Hands outside the frame, upper torso fading softly into mist. No toy, baby, extra person or text.",
+      "references": [
+        "assets/art/S01.png"
+      ]
+    },
+    {
+      "key": "S03",
+      "status": "READY",
+      "file": "assets/art/S03.png",
+      "originalToolOutput": "exec-c1598953-625d-4dec-80d7-eca7ac204a4f.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S03 Merchant, an older stocky man with a broad nose, close gray beard, balding scalp and calm practical expression. Muted ochre-brown mantle over a cream tunic, a simple closed leather trade pouch visible at the waist, no coins shown and no written ledger. Hands mostly under folded fabric, natural posture, look slightly left. A distinct older face, no dark curls or hood from the apprentice reference. This is a sympathetic person, no caricature of greed or moral judgment.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+      ]
+    },
+    {
+      "key": "S04",
+      "status": "READY",
+      "file": "assets/art/S04.png",
+      "originalToolOutput": "exec-0d064b6b-584d-4328-94ca-467363148714.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S04 Red Soldier, a broad-shouldered middle-aged man, close-cropped straight dark hair, strong square jaw and short stubble. Worn muted brick-red shoulder cloak over plain weathered bronze cuirass, no emblems. A simple low undecorated bronze helmet tucked beneath one arm at waist level. Tired restrained expression, upright composed pose, no aggression. Large angular silhouette with clearly visible red shoulder cloth. No raised weapon or blade. Distinct from a young hooded apprentice; no hood or ochre neck wrap. This will pair with a leaner blue-cloaked soldier in the same period and art style.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+      ]
+    },
+    {
+      "key": "S06",
+      "status": "READY",
+      "file": "assets/art/S06.png",
+      "originalToolOutput": "exec-1a627e9d-7a57-488e-a064-14ba07433532.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S06 Blue Soldier, a lean older man with a long angular clean-shaven face, straight gray hair tied back, clear tired eyes. Faded slate-blue cloak fastened at one shoulder over simple worn linen-and-bronze ancient armor. No helmet; narrow upright silhouette distinct from the broad Red Soldier. Look slightly left, arms comfortably lowered out of frame. The second supplied image is the Red Soldier for matching historical material and art treatment only, not identity or cloak color; distinguish this man by age, long face, tied gray hair, blue fabric and lighter armor. No weapons, scars, emblems or medals.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png",
+        "assets/art/S04.png"
+      ]
+    },
+    {
+      "key": "S05",
+      "status": "READY",
+      "file": "assets/art/S05.png",
+      "originalToolOutput": "exec-896ebd56-87ca-4264-bfeb-728de46f428f.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S05 Poet, a slender older woman with long silver hair braided loosely over one shoulder, a thoughtful angular face, calm eyes and a muted plum-gray linen wrap. One closed unmarked papyrus scroll held naturally against the chest, no visible letters and no quill. Look slightly upward and left, posture contemplative. Clearly distinct from the young apprentice and the middle-aged dark-haired Mother. A gentle pale spectral rim and softened lower body, dignified ordinary person, no laurel crown or halo.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+      ]
+    },
+    {
+      "key": "S07",
+      "status": "READY",
+      "file": "assets/art/S07.png",
+      "originalToolOutput": "exec-a9f4d7be-7ff9-4b30-82bb-e051a862dc61.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S07 Cook, a sturdy older woman with a round kindly face, gray hair tucked into a plain ivory cloth wrap, rolled linen sleeves and a muted warm clay-brown apron. Hold a single simple wooden cooking spoon naturally in one hand, well inside the composition; the other hand rests under the forearm. Calm capable expression with a faint friendly smile. Face and spoon clear at small card size. No food display, chef hat, pots, lettering, flour cloud or modern kitchen. Distinct older woman, no hood or long braid.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+      ]
+    },
+    {
+      "key": "S08",
+      "status": "READY",
+      "file": "assets/art/S08.png",
+      "originalToolOutput": "exec-91438146-0791-4f2a-904f-74229cb96860.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S08 Mason, a broad sturdy middle-aged man with a shaved scalp, a short dark beard and a quietly resolute face. Heavy gray linen work tunic and a simple rough leather apron, pale stone dust visible on the apron. One modest stone-working mallet with a small rectangular wood head held lowered and calmly against the apron, not raised as a weapon; other hand out of frame. Large grounded shoulder silhouette, no armor or jewelry. Clearly a worker, distinct from Merchant and Soldiers. Keep the mallet and hand entirely inside the portrait.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+      ]
+    },
+    {
+      "key": "S09",
+      "status": "READY",
+      "file": "assets/art/S09.png",
+      "originalToolOutput": "exec-cfd91644-57b7-41ea-93d6-d7cc1b98b155.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S09 Messenger, a slim young adult woman with very short close-cut dark hair, alert kind eyes and a narrow face. A plain muted moss-gray travel tunic, a practical brown cross-body leather satchel with its closed unmarked flap clearly visible near the ribs. One hand lightly holds the satchel strap, natural fingers. Upright ready posture, gaze slightly left. No hood, lantern, armor, winged hat, winged sandals, letters, scroll writing or god imagery. Distinct from apprentice and Child.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+      ]
+    },
+    {
+      "key": "S10",
+      "status": "READY",
+      "file": "assets/art/S10.png",
+      "originalToolOutput": "exec-b3aea912-3621-4929-8536-9602565e33c8.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S10 Keeper, a tall older woman with a broad calm face, short silver hair combed back and a steady inward-looking expression. A heavy plain charcoal-violet mantle over a gray linen tunic, one simple bronze key hanging on a cord at her chest as a provisional visual motif, no badges or writing. Both arms are folded loosely beneath the mantle, hands mostly concealed. Stately grounded silhouette but not a ruler or priest. No crown, halo, lantern, armor, gate or throne. Clearly distinct from the braided Poet and headwrapped Cook, no long braid or headwrap.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+      ]
+    },
+    {
+      "key": "S11",
+      "status": "READY",
+      "file": "assets/art/S11.png",
+      "originalToolOutput": "exec-7f434198-ba4c-40fc-a1de-216ccc92cab8.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S11 Musician, a gentle middle-aged man with shoulder-length loose dark hair, a clean-shaven oval face and a reflective expression. An unadorned pale linen tunic with a muted dusty-blue sash edged by two narrow ivory woven stripes. Hold a small ancient wooden lyre close to his torso, entire lyre inside the frame. One natural hand supports the wooden body, other hand rests lightly beside the strings without a complicated playing pose. Small curved wooden arms and simple parallel strings, no lettering or magical notes. The blue-and-ivory striped sash will be shared as a visual motif with the Listener portrait. No laurel crown, hood, lantern or extra people.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png"
+      ]
+    },
+    {
+      "key": "S12",
+      "status": "READY",
+      "file": "assets/art/S12.png",
+      "originalToolOutput": "exec-aaa0d0a5-c270-4d33-9df1-4ef251b1bf25.png",
+      "prompt": "Use case: stylized-concept. Generate ONE optional soul portrait asset for The Ferryman, portrait 1024x1536. Match the supplied illustration's painterly engraved texture, cool teal mist and quiet humane mood, but create the specific distinct character below, not a duplicate of the apprentice. One person only, a sympathetic deceased human with pale ivory-teal ghostly edge light and lower torso softly dissolving into an intentional opaque charcoal mist backdrop. Half-length portrait, readable face and role silhouette, believable natural anatomy, 10 percent clearance around head and props. Not transparent. Classical ancient Greek-inspired plain textiles, not modern fantasy armor. No lantern, halos, moral ranking, wounds, skulls, labels, lettering, visible writing, numbers, game icons, border, UI or logos. Visual traits are provisional and do not imply new mechanics. Subject: S12 Listener, an older man with a balding head, very short silver hair at the sides, clean-shaven warm round face and an attentive peaceful expression. Plain pale linen tunic with a muted dusty-blue shoulder shawl edged with two narrow ivory woven stripes, matching the Musician reference's textile motif. Head gently inclined as if listening to nearby music, eyes open, hands loosely resting together below the chest with natural anatomy. No instrument, book, lantern or musical notes. The supplied Musician is a reference for the paired blue-and-ivory cloth and painted treatment only; make this a different older person, not a face copy. Only one person is visible. Ordinary sympathetic soul, no halo.",
+      "references": [
+        "assets/art/S11.png"
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "key": "wraith-initial",
+      "status": "NEEDS_REVISION",
+      "originalToolOutput": "exec-e515ea64-4b69-42c4-b481-26e377ab3ae9.png",
+      "prompt": "Use case: stylized-concept. One portrait game asset, 1024x1536, a sorrowful river wraith in The Ferryman. Use the supplied apprentice and shore only as references for painterly etched texture, mist teal palette and restrained atmosphere. One upright formerly human spectral figure, half-length to knees, wrapped in worn unadorned cloth, hands drawn close to the chest with natural anatomy. A dim recognizably human face and closed sad mouth, diffuse ivory-blue edges dissolving into mist toward the bottom, readable silhouette at card size. Convey abandonment and grief, not evil moral worth. No glowing red eyes, no claws, skull, blood, violence or horror caricature. Opaque charcoal-teal mist background, slightly lighter halo separating the shoulders. Keep head and hands fully inside safe margins. Cool light with a tiny muted amber reflected edge, no lantern or props. Painterly and subtly engraved, matching the reference, no text, symbols, counters, UI, logos, border or collage.",
+      "references": [
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/apprentice.png",
+        "outputs/The_Ferryman_Digital_Demo_v0.3/assets/art/shore.png"
+      ],
+      "reason": "Too similar to apprentice; revised before delivery. Rejected raster is excluded from runtime manifest and package."
+    }
+  ]
+}
